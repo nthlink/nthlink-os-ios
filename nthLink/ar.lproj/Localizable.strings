@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "قبول والاستمرار";
+"Connect" = "اتصال";
+"Disconnect" = "قطع الاتصال";
+"Home" = "الصفحة الرئيسية";
+"Feedback" = "تعليقاتك";
+"About" = "لمحة";
+"Help" = "مساعدة";
+"Rate App" = "قيم التطبيق";
+"General Feedback" = "تعليقات عامة";
+"Cannot connect" = "لا يمكنني الاتصال بخادمي";
+"Connection speed is slow" = "برنامج nthLink بطيء";
+"Suggestions" = "اقتراحات";
+"Other" = "آخر";
+"Send" = "إرسال";
+"Tap To Disconnect" = "انقر لقطع الاتصال";
+"Tap To Connect" = "انقر للاتصال";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "خصوصيتك تأتي أولاً";
+"privacy_notice_text" = "لا تجمع nthLink معلومات التعريف الشخصية أو مواقع الويب / الخدمات عبر الإنترنت التي تزورها. يستخدم nthLink عنوان IP الخاص بك واللغة الافتراضية للجهاز وملفات تعريف الارتباط ومعلومات الجهاز الأساسية ( مثل معلومات نظام التشغيل) لتخصيص الخدمات التي تتلقاها مثل تحديد موقع أقرب الخوادم التي يمكنها دعم جهازك بشكل أفضل وعرض صفحة الويب المناسبة عند الاتصال بـ خادم nthLink.";
+"privacy_notice_submit" = "اقبل واستمر";
+"connection_hint_connect" = "اضغط للاتصال";
+"connection_hint_disconnect" = "انقر لقطع الاتصال";
+"Connect" = "الاتصال";
+"Disconnect" = "قطع الاتصال";
+"Connected" = "متصل";
+"Connecting" = "توصيل…";
+"Disconnecting" = "جارٍ قطع الاتصال…";
+"connection_error" = "خطأ في الإتصال";
+"feedback_page_title" = "تعليق";
+"feedback_issue_category_title" = "فئة المشكلة";
+"feedback_description_title" = "وصف";
+"feedback_note_text" = "سيتم إرسال وصفك وعنوان بريدك الإلكتروني (إن وجد) والمعلومات الإضافية إلى فريق nthLink. يرجى الرجوع إلى سياسة الخصوصية الخاصة بموقع nthLink للاطلاع على سياسة جمع البيانات الخاصة بنا.";
+"feedback_submit" = "إرسال";
+"feedback_submit_failed_message" = "لا يمكن الاتصال بخادم nthlink.";
+"feedback_submit_success_message" = "شكرا لمساعدتنا على التحسين! نحن نحب أن نسمع منك.";
+"feedback_init_failed_message" = "ليس لديك خادم";
+"about_page_title" = "عن";
+"about_version" = "الإصدار";
+"about_text" = "بدأ<p>نحن مجموعة من مهندسي البرمجيات وأمن المعلومات ذوي الخبرة الذين أنشأنا nthLink في عام 2016 لدعم محامي حقوق الإنسان الذين يحتاجون إلى الحصول على معلومات مقيدة والتعبير عن وجهات نظرهم. ومنذ ذلك الحين جعلنا الخدمة متاحة للجمهور على نطاق أوسع. فريق التطوير لدينا هم خبراء في كل من تكنولوجيا أمن الشبكات وموثوقية الخدمة.<br>خدمتنا مجانية وستظل مجانية بفضل الرعاة والشركاء. هم:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>يتفوق فريق التطوير لدينا في كل من تطور تقنية التحايل على الرقابة وموثوقية الخدمة. مع سنوات من الخبرة في هذا المجال التخصصي ، نوفر للمستخدمين في المناطق الجغرافية المستهدفة وصولًا بسيطًا وآمنًا وموثوقًا إلى المعلومات الخاضعة للرقابة.</p>";
+"menu_drawer_item_1" = "مسكن";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "يساعد";
+"menu_drawer_item_5" = "قيم التطبيق";
+"menu_web_item_1" = "نسخ الوصلة";
+"menu_web_item_2" = "فتح في المتصفح";
+"menu_web_item_3" = "رابط المشاركة";
+"menu_connection_item_1" = "الصفحة المقصودة";
+"word_loading" = "جار التحميل";
+"word_coped_link" = "رابط تم نسخه";
+"issue_categories_1" = "ملاحظات عامة";
+"issue_categories_2" = "لا يمكن الاتصال";
+"issue_categories_3" = "سرعة الاتصال بطيئة";
+"issue_categories_4" = "اقتراحات";
+"issue_categories_5" = "آخر";
+
+
+"menu_drawer_item_privacy_policy" = "سياسة الخصوصية";
+"feedbackDescTextFieldInitialText" = "(ضمّ أكثر من معلومة)";
+"feedbackErrorSelectType" = "يرجى تحديد نوع الخطأ";
+"feedbackErrorAddDescription" = "الرجاء إدخال الوصف";
+"somethingWentWrong" = "حدث خطأ ما. يرجى المحاولة مرة أخرى بعد فترة من الزمن.";
+"Notice" = "تنويه";
+"OK" = "موافق";
+"feedbackDescEmailIDLabel" = "عنوان بريدك الإلكتروني (اختياري)";
+"feedbackSubtext" = "إذا قمت بتقديم عنوان بريدك الإلكتروني ، فقد نتصل بك للحصول على مزيد من التفاصيل حول طلبك.";
+"feedbackSelectIssueButton" = "حدد المشكلة";
+"aboutVisitOurHomeText" = "زيارة صفحتنا الرئيسية";
+"privacyPolicyAgreeButton" = "موافق واستمر";
+"privacyPolicyLearnMoreButton" = "تعرف على المزيد حول nthLink";
+"homeReadLatestNews" = "اقرأ أحدث الأخبار";

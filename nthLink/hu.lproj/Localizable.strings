@@ -1,0 +1,87 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Az Ön magánélete az első";
+"privacy_notice_text" = "Az nthLink NEM gyűjt személyazonosításra alkalmas információkat vagy az Ön által meglátogatott webhelyeket / online szolgáltatásokat. Az nthLink az Ön IP-címét, az eszköz alapértelmezett nyelvét, a cookie-kat és az alapvető eszközinformációkat ( pl. az operációs rendszer információit) használja a kapott szolgáltatások testreszabásához, például megkeresi a legközelebbi szervereket, amelyek a legjobban tudják támogatni az eszközt, és a megfelelő weboldalt jeleníti meg, amikor csatlakozik az nthLink szerverhez.";
+"privacy_notice_submit" = "Elfogadás és folytatás";
+"connection_hint_connect" = "Koppintson a Csatlakozáshoz";
+"connection_hint_disconnect" = "Koppintson a Leválasztáshoz";
+"Connect" = "Csatlakozás";
+"Disconnect" = "Leválasztás";
+"Connected" = "csatlakoztatva";
+"Connecting" = "Csatlakozás…";
+"Disconnecting" = "Leválasztás…";
+"connection_error" = "kapcsolati hiba";
+"feedback_page_title" = "Visszajelzés";
+"feedback_issue_category_title" = "Probléma kategória";
+"feedback_description_title" = "Leírás";
+"feedback_note_text" = "Leírását, e-mail címét (ha megadja) és további információkat elküldjük az nthLink csapatának. Kérjük, tekintse meg az nthLink webhely adatvédelmi szabályzatát az adatgyűjtéssel kapcsolatos irányelveink megismeréséhez.";
+"feedback_submit" = "Küld";
+"feedback_submit_failed_message" = "Nem lehet csatlakozni az nthlink szerverhez.";
+"feedback_submit_success_message" = "Köszönjük, hogy segít a fejlesztésben! Szeretünk hallani Önről.";
+"feedback_init_failed_message" = "Ne legyen szervere";
+"about_page_title" = "Rólunk";
+"about_version" = "Verzió:";
+"about_text" = "<p>Tapasztalt szoftver- és információbiztonsági mérnökökből álló csoportot alkotunk, akik 2016-ban indították el az nthLink-et, hogy támogassák azokat az emberi jogi ügyvédeket, akiknek korlátozott információkhoz jutottak, és véleményük kifejtésére van szükségük. Azóta a szolgáltatást a szélesebb nyilvánosság számára is elérhetővé tesszük. Fejlesztőcsapatunk a hálózatbiztonsági technológia és a szolgáltatás-megbízhatóság szakértői.<br>Szolgáltatásunk ingyenes és továbbra is ingyenes lesz szponzorainknak és partnereinknek köszönhetően. Ők:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Fejlesztőcsapatunk a cenzúra-megkerülési technológia kifinomultságában és a szolgáltatás megbízhatóságában egyaránt kiemelkedő. Az ezen a speciális területen szerzett több éves tapasztalatunkkal a célzott földrajzi területeken lévő felhasználók számára egyszerű, biztonságos és megbízható hozzáférést biztosítunk az egyébként cenzúrázott információkhoz.</p>";
+"menu_drawer_item_1" = "Kezdőoldal";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Súgó";
+"menu_drawer_item_5" = "Értékelje az alkalmazást";
+"menu_web_item_1" = "Link másolása";
+"menu_web_item_2" = "Megnyitás böngészőben";
+"menu_web_item_3" = "Hivatkozás megosztása";
+"menu_connection_item_1" = "Nyitóoldal";
+"word_loading" = "Betöltés";
+"word_coped_link" = "Másolt hivatkozás";
+"issue_categories_1" = "Általános visszajelzés";
+"issue_categories_2" = "Nem tud csatlakozni";
+"issue_categories_3" = "A kapcsolat sebessége lassú";
+"issue_categories_4" = "Javaslatok";
+"issue_categories_5" = "Egyéb";
+
+
+"menu_drawer_item_privacy_policy" = "Adatvédelmi irányelv";
+"feedbackDescTextFieldInitialText" = "(további információkat tartalmaz)";
+"feedbackErrorSelectType" = "Válassza ki a hibatípust";
+"feedbackErrorAddDescription" = "Kérjük, adjon meg egy leírást";
+"somethingWentWrong" = "Valami hiba történt. Kérjük, próbálja újra később.";
+"Notice" = "Értesítés";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Az Ön e-mail címe (opcionális)";
+"feedbackSubtext" = "Ha megadja e-mail címét, felvehetjük Önnel a kapcsolatot további információkért a kérelmével kapcsolatban.";
+"feedbackSelectIssueButton" = "Válasszon problémát";
+"aboutVisitOurHomeText" = "Látogasson el a főoldalunkra";
+"privacyPolicyAgreeButton" = "Elfogad és folytat";
+"privacyPolicyLearnMoreButton" = "Tudj meg többet a nthLinkről";
+"homeReadLatestNews" = "Olvassa el a legfrissebb híreket";
+
+

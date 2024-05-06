@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "您的隐私至上";
+"privacy_notice_text" = "nthLink 不会收集您访问的个人身份信息或网站 / 在线服务。nthLink 使用您的 IP 地址、设备的默认语言、cookie 和基本设备信息（例如操作系统信息）来定制您收到的服务，例如定位最能支持您的设备的最近服务器并在连接到 nthLink 服务器时显示正确的网页。";
+"privacy_notice_submit" = "接受并继续";
+"connection_hint_connect" = "点击“连接”";
+"connection_hint_disconnect" = "点击“断开”";
+"Connect" = "连接";
+"Disconnect" = "断开";
+"Connected" = "已连接";
+"Connecting" = "正在连接…";
+"Disconnecting" = "正在断开…";
+"connection_error" = "连接错误";
+"feedback_page_title" = "反馈";
+"feedback_issue_category_title" = "问题类别";
+"feedback_description_title" = "描述";
+"feedback_note_text" = "您的描述、电子邮件地址（如果提供）和其他信息将发送给 nthLink 团队。有关我们的数据收集政策，请参阅 nthLink 网站的隐私政策。";
+"feedback_submit" = "发送";
+"feedback_submit_failed_message" = "无法连接到 nthlink 服务器。";
+"feedback_submit_success_message" = "感谢您帮助我们改进！我们乐于收到您的回音。";
+"feedback_init_failed_message" = "没有服务器";
+"about_page_title" = "关于";
+"about_version" = "版本";
+"about_text" = "<p>我们是一群经验丰富的软件和信息安全工程师，于 2016 年创立了 nthLink，为需要获取受限信息并表达观点的人权律师提供支持。 从那时起，我们就向更广泛的公众提供了这项服务。 我们的开发团队是网络安全技术和服务可靠性方面的专家。<br>我们的服务是免费的，并且由于我们的赞助商和合作伙伴，我们将继续免费。 他们是：<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>我们的开发团队在审查规避技术的复杂性和服务的可靠性方面均表现出色。 凭借在这一专业领域的多年经验，我们为目标地区的用户提供简单、安全、可靠的访问方式，以获取未经审查的信息。</p>";
+"menu_drawer_item_1" = "主页";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "帮助";
+"menu_drawer_item_5" = "评价应用";
+"menu_web_item_1" = "复制链接";
+"menu_web_item_2" = "在浏览器中打开";
+"menu_web_item_3" = "分享链接";
+"menu_connection_item_1" = "登陆页面";
+"word_loading" = "正在加载...";
+"word_coped_link" = "复制链接";
+"issue_categories_1" = "一般反馈";
+"issue_categories_2" = "无法连接";
+"issue_categories_3" = "连接速度很慢";
+"issue_categories_4" = "建议";
+"issue_categories_5" = "其他";
+
+
+"menu_drawer_item_privacy_policy" = "隐私政策";
+"feedbackDescTextFieldInitialText" = "(包括更多信息)";
+"feedbackErrorSelectType" = "请选择错误类型";
+"feedbackErrorAddDescription" = "请输入描述";
+"somethingWentWrong" = "出了点问题。请稍后再试。";
+"Notice" = "通知";
+"OK" = "确定";
+"feedbackDescEmailIDLabel" = "您的电子邮件地址（可选）";
+"feedbackSubtext" = "如果您提供了您的电子邮件地址，我们可能会与您联系，以获取有关您请求的更多详细信息。";
+"feedbackSelectIssueButton" = "选择问题";
+"aboutVisitOurHomeText" = "访问我们的主页";
+"privacyPolicyAgreeButton" = "同意并继续";
+"privacyPolicyLearnMoreButton" = "了解更多关于 nthLink";
+"homeReadLatestNews" = "阅读最新新闻";

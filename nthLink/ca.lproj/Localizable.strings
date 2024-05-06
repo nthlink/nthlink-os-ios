@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accepta i continua";
+"Connect" = "Connecta";
+"Disconnect" = "Desconnecta";
+"Home" = "pàgina d'inici";
+"Feedback" = "Els teus comentaris";
+"About" = "Informació";
+"Help" = "Ajuda";
+"Rate App" = "Valoreu l'aplicació";
+"General Feedback" = "Suggeriments generals";
+"Cannot connect" = "No em puc connectar al meu servidor";
+"Connection speed is slow" = "nthLink funciona lentament";
+"Suggestions" = "Suggeriments";
+"Other" = "Altres";
+"Send" = "Envia";
+"Tap To Disconnect" = "Toqueu Per desconnectar";
+"Tap To Connect" = "Toqueu Per connectar";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "La vostra privadesa és el primer";
+"privacy_notice_text" = "nthLink NO recull informació d\'identificació personal o llocs web / serveis en línia que visiteu. nthLink utilitza la vostra adreça IP, l\'idioma predeterminat del dispositiu, les galetes i la informació bàsica del dispositiu ( per exemple, informació del sistema operatiu) per personalitzar els serveis que rebeu, com ara localitzar els servidors més propers que millor donen suport al vostre dispositiu i mostrar la pàgina web adequada en connectar-vos a el servidor nthLink.";
+"privacy_notice_submit" = "Acceptar i continuar";
+"connection_hint_connect" = "Tocar per connectar";
+"connection_hint_disconnect" = "Tocar per desconnectar";
+"Connect" = "Connectar";
+"Disconnect" = "Desconnectar";
+"Connected" = "Connectat";
+"Connecting" = "S\'està connectant…";
+"Disconnecting" = "S\'està desconnectant...";
+"connection_error" = "error de connexió";
+"feedback_page_title" = "Comentaris";
+"feedback_issue_category_title" = "Categoria d\'error";
+"feedback_description_title" = "Descripció";
+"feedback_note_text" = "La vostra descripció, adreça de correu electrònic (si s\'ha proporcionat) i informació addicional s\'enviaran a l\'equip de nthLink. Si us plau, consulteu la Política de privadesa del lloc web de nthLink per a la nostra política de recollida de dades.";
+"feedback_submit" = "Enviar";
+"feedback_submit_failed_message" = "No es pot connectar al servidor nthlink.";
+"feedback_submit_success_message" = "Gràcies per ajudar-nos a millorar! Ens encanta saber de tu.";
+"feedback_init_failed_message" = "No tenim servidor";
+"about_page_title" = "Sobre";
+"about_version" = "Versió";
+"about_text" = "<p>Som un grup d'enginyers de programari i seguretat de la informació amb experiència que van iniciar nthLink l'any 2016 per donar suport als advocats de drets humans que necessitaven obtenir informació restringida i expressar les seves perspectives. Des d'aleshores hem posat el servei a disposició del públic en general. El nostre equip de desenvolupament és expert tant en tecnologia de seguretat de xarxa com en fiabilitat del servei.<br>El nostre servei és gratuït i seguirà sent gratuït gràcies als nostres patrocinadors i socis. Ells són:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>El nostre equip de desenvolupament destaca tant per la sofisticació de la tecnologia d'elusió de la censura com per la fiabilitat del servei. Amb anys d'experiència en aquesta àrea d'especialitat, oferim als usuaris en zones geogràfiques específiques un accés senzill, segur i fiable a la informació d'altra manera.censurada.</p>";
+"menu_drawer_item_1" = "Inici";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Ajuda";
+"menu_drawer_item_5" = "Valorar l\'aplicació";
+"menu_web_item_1" = "Copiar l\'enllaç";
+"menu_web_item_2" = "Obrir al navegador";
+"menu_web_item_3" = "Compartir l\'enllaç";
+"menu_connection_item_1" = "Pàgina d\'inici";
+"word_loading" = "Carregant";
+"word_coped_link" = "Enllaç copiat";
+"issue_categories_1" = "Comentaris generals";
+"issue_categories_2" = "No es pot connectar";
+"issue_categories_3" = "La velocitat de connexió és lenta";
+"issue_categories_4" = "Suggeriments";
+"issue_categories_5" = "Altres";
+
+
+"menu_drawer_item_privacy_policy" = "Política de privadesa";
+"feedbackDescTextFieldInitialText" = "(inclou més informació)";
+"feedbackErrorSelectType" = "Si us plau, seleccioneu el tipus d'error";
+"feedbackErrorAddDescription" = "Si us plau, introdueixi una descripció";
+"somethingWentWrong" = "Alguna cosa ha anat malament. Si us plau, intenta-ho més tard.";
+"Notice" = "Avís";
+"OK" = "D'acord";
+"feedbackDescEmailIDLabel" = "La vostra adreça de correu electrònic (opcional)";
+"feedbackSubtext" = "Si proporcioneu la vostra adreça de correu electrònic, podríem posar-nos en contacte amb vosaltres per obtenir més detalls sobre la vostra sol·licitud.";
+"feedbackSelectIssueButton" = "Seleccioneu el problema";
+"aboutVisitOurHomeText" = "Visiteu la nostra pàgina d'inici";
+"privacyPolicyAgreeButton" = "D'acord i continuar";
+"privacyPolicyLearnMoreButton" = "Obtén més informació sobre nthLink";
+"homeReadLatestNews" = "Llegeix les últimes notícies";

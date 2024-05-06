@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "የእርስዎ ግላዊነት ይቀድማል";
+"privacy_notice_text" = "nthLink እርስዎ የሚጎበኟቸውን በግል ሊለዩ የሚችሉ መረጃዎችን ወይም ድር ጣቢያዎችን / የመስመር ላይ አገልግሎቶችን አይሰበስብም። nthLink የሚቀበሏቸውን አገልግሎቶች ለማበጀት ማለትም የእርስዎን መገልገያ መሳሪያ በጥሩ ሁኔታ ሊያግዝ የሚችል ሰርቨር ለማመላከት እና ከnthLink ሰርቨር ጋር ሲገናኝ ተገቢ ድረ ገጾችን ለማሳየት የእርስዎን የአይፒ አድራሻ፣ የመሣሪያ ነባሪ ቋንቋ፣ ኩኪዎች እና መሰረታዊ መረጃ ( ለምሳሌ የስርዓተ ክወና መረጃ) ይጠቀማል።";
+"privacy_notice_submit" = "ተቀበል እና ቀጥል።";
+"connection_hint_connect" = "ለመገናኘት ነካ ያድርጉ";
+"connection_hint_disconnect" = "ግንኙነቱን ለማቋረጥ ይንኩ።";
+"Connect" = "ተገናኝ";
+"Disconnect" = "ግንኙነት አቋርጥ";
+"Connected" = "ተገናኝቷል።";
+"Connecting" = "በማገናኘት ላይ…";
+"Disconnecting" = "ግንኙነት በማቋረጥ ላይ…";
+"connection_error" = "የግንኙነት_ስህተት";
+"feedback_page_title" = "ግብረ መልስ";
+"feedback_issue_category_title" = "የችግር ምድብ";
+"feedback_description_title" = "መግለጫ";
+"feedback_note_text" = "የእርስዎ መግለጫ፣ የኢሜይል አድራሻ (ተሰጥቶ ከሆነ) እና ተጨማሪ መረጃ ለ nthLink ቡድን ይላካል። እባኮትን ለመረጃ አሰባሰብ መመሪያችን የnthLink ድረ ገጽን የግላዊነት ፖሊሲ ይመልከቱ።";
+"feedback_submit" = "ላክ";
+"feedback_submit_failed_message" = "ከ nthlink ሰርቨር ጋር መገናኘት አልተቻለም።";
+"feedback_submit_success_message" = "እንድናሻሽል ስለረዱን እናመሰግናለን! ከእርስዎ መስማት እንወዳለን።";
+"feedback_init_failed_message" = "ሰርቨር የለዎትም";
+"about_page_title" = "ስለ";
+"about_version" = "ስሪት";
+"about_text" = "<p>እኛ በ 2016 የተገደበ መረጃ ለማግኘት የሚያስፈልጋቸውን የሰብአዊ መብት ጠበቆችን ለመደገፍ እና አመለካከታቸውን ለመግለጽ nthLink የጀመርን የሶፍትዌር እና የመረጃ ደህንነት መሐንዲሶች ቡድን ነን። ከዚያን ጊዜ ጀምሮ አገልግሎቱን ለሰፊው ህዝብ ተደራሽ አድርገነዋል። የእኛ የእድገት ቡድን በሁለቱም የአውታረ መረብ ደህንነት ቴክኖሎጂ እና የአገልግሎት አስተማማኝነት ባለሞያዎች ናቸው።<br>አገልግሎታችን ነፃ ነው እና ለስፖንሰሮቻችን እና አጋሮቻችን ምስጋና ይግባው ይቀጥላል። ናቸው:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>የእኛ የእድገት ቡድን በሳንሱር ችግር አፈታት ቴክኖሎጂ ውስብስብነት እና በአገልግሎቱ አስተማማኝነት የላቀ ነው። የዓመታት ልምድ ባገኘንበት በዚህ መስክ ለታላሚ አካባቢዎች ቀላል፣ ደህንነቱ የተጠበቀ እና አስተማማኝ የመረጃ መዳረሻን ለተጠቃሚዎች እናቀርባለን።</p>";
+"menu_drawer_item_1" = "ዋና ገጽ";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "እገዛ";
+"menu_drawer_item_5" = "መተግበሪያ ደረጃ ይስጡ";
+"menu_web_item_1" = "አገናኝ ቅዳ";
+"menu_web_item_2" = "በአሳሽ ውስጥ ክፈት";
+"menu_web_item_3" = "አገናኝ አጋራ";
+"menu_connection_item_1" = "ማረፊያ ገጽ";
+"word_loading" = "በመጫን ላይ";
+"word_coped_link" = "የታገዘ አገናኝ";
+"issue_categories_1" = "አጠቃላይ አስተያየት";
+"issue_categories_2" = "መገናኘት አልተቻለም";
+"issue_categories_3" = "የግንኙነት ፍጥነት ቀርፋፋ ነው።";
+"issue_categories_4" = "ጥቆማዎች";
+"issue_categories_5" = "ሌላ";
+
+
+"menu_drawer_item_privacy_policy" = "ግላዊ ፓልሲ";
+"feedbackDescTextFieldInitialText" = "(ከፍተኛ መረጃ አክል)";
+"feedbackErrorSelectType" = "በፍጥነት ምረጥ ይሆናል";
+"feedbackErrorAddDescription" = "እባኮትን መጠቀም ይችላሉ";
+"somethingWentWrong" = "ምንም ስህተት ተፈጥሮ አልተገኘም። እባኮትን ከፈለጉ በማስተካከል እባኮትን ይቅርታል።";
+"Notice" = "ማስታወሻ";
+"OK" = "እሺ";
+"feedbackDescEmailIDLabel" = "የእርስዎ ኢሜል አድርገን (ማለ፤ አልነበርን)";
+"feedbackSubtext" = "እዚህ ኢሜል አድራሻዎን ያስገኝ በመሆን እንኳን በእኛ ላይ እባኮትን ይመለከታል።";
+"feedbackSelectIssueButton" = "አጋጣሚ ይምረጡ";
+"aboutVisitOurHomeText" = "ተጨማሪ አገርን በገለ";
+"privacyPolicyAgreeButton" = "ውላቸውን ለማስቀመጥ ለመነሳት";
+"privacyPolicyLearnMoreButton" = "nthLink መረጃ በመስጠት";
+"homeReadLatestNews" = "የቅርብ ምንዞችን እንዳንክተን";

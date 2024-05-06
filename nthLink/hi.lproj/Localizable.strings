@@ -1,0 +1,84 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "आपकी गोपनीयता सबसे पहले आती है";
+"privacy_notice_text" = "nthLink व्यक्तिगत रूप से पहचान योग्य जानकारी या आपके द्वारा देखी जाने वाली वेबसाइटों / ऑनलाइन सेवाओं को एकत्र नहीं करता है. nthLink आपके द्वारा प्राप्त की जाने वाली सेवाओं को अनुकूलित करने के लिए आपके IP पते, डिवाइस की डिफ़ॉल्ट भाषा, कुकीज़ और बुनियादी डिवाइस जानकारी ( जैसे ऑपरेटिंग सिस्टम की जानकारी) का उपयोग करता है जैसे कि निकटतम सर्वर का पता लगाना जो आपके डिवाइस का सबसे अच्छा समर्थन कर सकते हैं और nthLink सर्वर से कनेक्ट होने पर उचित वेब पेज प्रदर्शित कर सकते हैं.";
+"privacy_notice_submit" = "स्वीकार करें और जारी रखें";
+"connection_hint_connect" = "कनेक्ट करने के लिए टैप करें";
+"connection_hint_disconnect" = "डिस्कनेक्ट करने के लिए टैप करें";
+"Connect" = "कनेक्ट करें";
+"Disconnect" = "डिस्कनेक्ट करें";
+"Connected" = "कनेक्ट किया गया";
+"Connecting" = "कनेक्ट हो रहा है…";
+"Disconnecting" = "डिस्कनेक्ट हो रहा है…";
+"connection_error" = "कनेक्शन_त्रुटि";
+"feedback_page_title" = "फीडबैक";
+"feedback_issue_category_title" = "इशू श्रेणी";
+"feedback_description_title" = "विवरण";
+"feedback_note_text" = "आपका विवरण, ईमेल पता (यदि प्रदान किया गया है), और अतिरिक्त जानकारी nthLink टीम को भेजी जाएगी. हमारी डेटा संग्रह नीति के लिए कृपया nthLink वेबसाइट की गोपनीयता नीति देखें.";
+"feedback_submit" = "भेजें";
+"feedback_submit_failed_message" = "nthlink सर्वर से कनेक्ट नहीं किया जा सकता.";
+"feedback_submit_success_message" = "हमें बेहतर बनाने में मदद करने के लिए धन्यवाद! हम आपसे सुनना पसंद करते हैं.";
+"feedback_init_failed_message" = "सर्वर नहीं है";
+"about_page_title" = "के बारे में";
+"about_version" = "संस्करण";
+"about_text" = "<p>हम अनुभवी सॉफ्टवेयर और सूचना सुरक्षा इंजीनियरों का एक समूह हैं, जिन्होंने मानवाधिकार वकीलों का समर्थन करने के लिए 2016 में nthLink शुरू की थी, जिन्हें प्रतिबंधित जानकारी प्राप्त करने और अपने दृष्टिकोण व्यक्त करने की आवश्यकता थी। तब से हमने यह सेवा व्यापक जनता के लिए उपलब्ध करा दी है। हमारी विकास टीम नेटवर्क सुरक्षा प्रौद्योगिकी और सेवा विश्वसनीयता दोनों में विशेषज्ञ है।<br>हमारी सेवा मुफ़्त है और हमारे प्रायोजकों और साझेदारों को धन्यवाद, मुफ़्त रहेगी। वे हैं:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>हमारी विकास टीम सेंसरशिप से बचने की तकनीक के परिष्कार और सेवा की विश्वसनीयता दोनों में उत्कृष्ट है. इस विशेष क्षेत्र में वर्षों के अनुभव के साथ, हम लक्षित भौगोलिक क्षेत्रों में उपयोगकर्ताओं को भिन्न प्रकार से सेंसर की गई जानकारी के लिए सरल, सुरक्षित और विश्वसनीय पहुंच प्रदान करते हैं.</p>";
+"menu_drawer_item_1" = "होम";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "मदद";
+"menu_drawer_item_5" = "ऐप को रेट करें";
+"menu_web_item_1" = "लिंक कॉपी करें";
+"menu_web_item_2" = "ब्राउज़र में खोलें";
+"menu_web_item_3" = "लिंक साझा करें";
+"menu_connection_item_1" = "लैंडिंग पेज";
+"word_loading" = "लोड हो रहा है";
+"word_coped_link" = "कॉपी किया गया लिंक";
+"issue_categories_1" = "सामान्य प्रतिक्रिया";
+"issue_categories_2" = "कनेक्ट नहीं हो सकता";
+"issue_categories_3" = "कनेक्शन की गति धीमी है";
+"issue_categories_4" = "सुझाव";
+"issue_categories_5" = "अन्य";
+
+"menu_drawer_item_privacy_policy" = "गोपनीयता नीति";
+"feedbackDescTextFieldInitialText" = "(अधिक जानकारी शामिल करें)";
+"feedbackErrorSelectType" = "कृपया त्रुटि प्रकार का चयन करें";
+"feedbackErrorAddDescription" = "कृपया विवरण दर्ज करें";
+"somethingWentWrong" = "कुछ गलत हो गया है। कृपया कुछ समय बाद पुन: प्रयास करें।";
+"Notice" = "नोटिस";
+"OK" = "ठीक है";
+"feedbackDescEmailIDLabel" = "आपका ईमेल पता (वैकल्पिक)";
+"feedbackSubtext" = "यदि आप अपना ईमेल पता प्रदान करते हैं, तो हम आपसे आपके अनुरोध पर अधिक विवरण के लिए संपर्क कर सकते हैं।";
+"feedbackSelectIssueButton" = "मुद्दा चुनें";
+"aboutVisitOurHomeText" = "हमारे होमपेज पर जाएं";
+"privacyPolicyAgreeButton" = "सहमत और जारी रखें";
+"privacyPolicyLearnMoreButton" = "nthLink के बारे में अधिक जानें";
+"homeReadLatestNews" = "नवीनतम समाचार पढ़ें";

@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2461820C292C9A8E006962D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461820B292C9A8E006962D7 /* AppDelegate.swift */; };
+		2461820E292C9A8E006962D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2461820D292C9A8E006962D7 /* SceneDelegate.swift */; };
+		24618213292C9A8E006962D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24618211292C9A8E006962D7 /* Main.storyboard */; };
+		24618215292C9A90006962D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24618214292C9A90006962D7 /* Assets.xcassets */; };
+		24618218292C9A90006962D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24618216292C9A90006962D7 /* LaunchScreen.storyboard */; };
+		24618226292CA960006962D7 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24618225292CA960006962D7 /* NetworkExtension.framework */; };
+		24618229292CA960006962D7 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24618228292CA960006962D7 /* PacketTunnelProvider.swift */; };
+		2461822E292CA960006962D7 /* PacketTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 24618223292CA960006962D7 /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24E3DEAE29DECA9400A1DA09 /* cacert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DEAD29DECA9400A1DA09 /* cacert.pem */; };
+		300F0865481F557E571A8A47 /* Pods_PacketTunnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEE3C323D14C91FD20EB1CD /* Pods_PacketTunnel.framework */; };
+		7124043B2A7249200070681B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7124043D2A7249200070681B /* Localizable.strings */; };
+		7134BAF12A5FBEBB00736C4E /* FeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134BAF02A5FBEBB00736C4E /* FeedbackController.swift */; };
+		71910AAD2A4D6B81002DA5D3 /* PrivacyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71910AAC2A4D6B81002DA5D3 /* PrivacyController.swift */; };
+		71910AB22A4D6C89002DA5D3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71910AB12A4D6C89002DA5D3 /* Extension.swift */; };
+		71910AB72A4D71BD002DA5D3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71910AB62A4D71BD002DA5D3 /* MenuController.swift */; };
+		71910AB92A4D71D5002DA5D3 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71910AB82A4D71D5002DA5D3 /* RootView.swift */; };
+		71910ABB2A4D8318002DA5D3 /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71910ABA2A4D8318002DA5D3 /* HelpController.swift */; };
+		71910ABD2A4D882C002DA5D3 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71910ABC2A4D882C002DA5D3 /* SplashController.swift */; };
+		71C0BF7E2A65849500EB59E2 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0BF7D2A65849500EB59E2 /* NewsController.swift */; };
+		E02A14BC2B89B5A9006DA35D /* HomeViewController+VPNConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A14BB2B89B5A9006DA35D /* HomeViewController+VPNConnect.swift */; };
+		E02A14BE2B89BF7E006DA35D /* HomeViewController+LoadNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A14BD2B89BF7E006DA35D /* HomeViewController+LoadNews.swift */; };
+		E05B1CCC2BD3863800DE5A13 /* News.json in Resources */ = {isa = PBXBuildFile; fileRef = E05B1CCB2BD3863800DE5A13 /* News.json */; };
+		E0A78E162B7AF3F10067BB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A78E152B7AF3F10067BB27 /* HomeViewController.swift */; };
+		E0A78E182B7AF6100067BB27 /* VPNServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A78E172B7AF6100067BB27 /* VPNServiceManager.swift */; };
+		E0B72E2E2B8F0A5A00463934 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B72E2D2B8F0A5A00463934 /* NewsData.swift */; };
+		E0B72E312B8F10CB00463934 /* HomeNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B72E2F2B8F10CB00463934 /* HomeNotificationTableViewCell.swift */; };
+		E0B72E322B8F10CB00463934 /* HomeNotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B72E302B8F10CB00463934 /* HomeNotificationTableViewCell.xib */; };
+		E0B72E352B8F1B6500463934 /* NewsBottomListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B72E332B8F1B6500463934 /* NewsBottomListTableViewCell.swift */; };
+		E0B72E362B8F1B6500463934 /* NewsBottomListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B72E342B8F1B6500463934 /* NewsBottomListTableViewCell.xib */; };
+		E0B72E3D2B907F1300463934 /* Utilities+Cacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B72E3C2B907F1300463934 /* Utilities+Cacher.swift */; };
+		E0D4D4892B957C6700650572 /* ServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D4882B957C6700650572 /* ServerData.swift */; };
+		E0D4D48A2B957D5800650572 /* VPNConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BB02B80CC0400775A98 /* VPNConstants.swift */; };
+		E0FF0BA22B80C74A00775A98 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BA12B80C74A00775A98 /* Constants.swift */; };
+		E0FF0BA52B80C80200775A98 /* AppBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BA42B80C80200775A98 /* AppBaseViewController.swift */; };
+		E0FF0BA72B80C85900775A98 /* Utilities+StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BA62B80C85900775A98 /* Utilities+StatusBar.swift */; };
+		E0FF0BA92B80C87400775A98 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BA82B80C87400775A98 /* Utilities.swift */; };
+		E0FF0BAB2B80C93D00775A98 /* UIStoryBoard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BAA2B80C93D00775A98 /* UIStoryBoard+Loader.swift */; };
+		E0FF0BAD2B80CA0000775A98 /* Utilities+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BAC2B80CA0000775A98 /* Utilities+NSObject.swift */; };
+		E0FF0BB12B80CC0400775A98 /* VPNConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BB02B80CC0400775A98 /* VPNConstants.swift */; };
+		E0FF0BB32B80D66B00775A98 /* Utilities+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BB22B80D66B00775A98 /* Utilities+UIView.swift */; };
+		E0FF0BB52B80D6DE00775A98 /* Utilities+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BB42B80D6DE00775A98 /* Utilities+UITextField.swift */; };
+		E0FF0BB72B80DA6C00775A98 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BB62B80DA6C00775A98 /* AppConfiguration.swift */; };
+		E0FF0BBB2B80DBD600775A98 /* LocalizedStringEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BBA2B80DBD600775A98 /* LocalizedStringEnum.swift */; };
+		E0FF0BBD2B80DCA900775A98 /* Utilities+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BBC2B80DCA900775A98 /* Utilities+UILabel.swift */; };
+		E0FF0BBF2B80DE9F00775A98 /* Utilities+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BBE2B80DE9F00775A98 /* Utilities+UIButton.swift */; };
+		E0FF0BC52B80F73E00775A98 /* FeedbackServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF0BC42B80F73E00775A98 /* FeedbackServiceManager.swift */; };
+		FA45CB4D90088814CD6F9B62 /* Pods_nthLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899F49E8EF2494C056D28F20 /* Pods_nthLink.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2461822C292CA960006962D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24618200292C9A8E006962D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24618222292CA960006962D7;
+			remoteInfo = PacketTunnel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24286F762939516200ED6C41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2461822F292CA960006962D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2461822E292CA960006962D7 /* PacketTunnel.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0F1DB126B0E9EF44BF670D56 /* Pods-PacketTunnel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketTunnel.release.xcconfig"; path = "Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel.release.xcconfig"; sourceTree = "<group>"; };
+		1C5CFA8B029109BD6F7F0600 /* Pods-nthLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nthLink.debug.xcconfig"; path = "Target Support Files/Pods-nthLink/Pods-nthLink.debug.xcconfig"; sourceTree = "<group>"; };
+		24618208292C9A8E006962D7 /* nthLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nthLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2461820B292C9A8E006962D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2461820D292C9A8E006962D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24618212292C9A8E006962D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24618214292C9A90006962D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24618217292C9A90006962D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24618219292C9A90006962D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24618223292CA960006962D7 /* PacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		24618225292CA960006962D7 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		24618228292CA960006962D7 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		2461822A292CA960006962D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2461822B292CA960006962D7 /* PacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketTunnel.entitlements; sourceTree = "<group>"; };
+		24618233292CB697006962D7 /* nthLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nthLink.entitlements; sourceTree = "<group>"; };
+		24E3DEAD29DECA9400A1DA09 /* cacert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cacert.pem; sourceTree = "<group>"; };
+		3DEE3C323D14C91FD20EB1CD /* Pods_PacketTunnel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacketTunnel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7124043C2A7249200070681B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124043E2A7249570070681B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124043F2A7249600070681B /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404402A72496F0070681B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		712404412A7249750070681B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		712404422A7249930070681B /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404432A72499B0070681B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404442A7249A30070681B /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404452A7249AB0070681B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404462A7249BC0070681B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404472A7249C60070681B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404482A7249D20070681B /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		712404492A7249DB0070681B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124044A2A7249E30070681B /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124044B2A7249EB0070681B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124044C2A7249F50070681B /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124044D2A724A000070681B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124044E2A724A080070681B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124044F2A724A0F0070681B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404502A724A1F0070681B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404512A724A2D0070681B /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404522A724A380070681B /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404532A724A480070681B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404542A724A540070681B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		712404552A724A5B0070681B /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		712404562A724A660070681B /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404572A724A6C0070681B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404582A724A780070681B /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404592A724A830070681B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124045A2A724A890070681B /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7124045B2A724A900070681B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124045C2A724A970070681B /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124045D2A724A9D0070681B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124045E2A724AA60070681B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7124045F2A724AAC0070681B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404602A724AC60070681B /* lv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lv; path = lv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404612A724AD90070681B /* lt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lt; path = lt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404622A724B040070681B /* am */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = am; path = am.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404632A724B130070681B /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404642A724B410070681B /* fa */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fa; path = fa.lproj/Localizable.strings; sourceTree = "<group>"; };
+		712404652A724B610070681B /* sr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sr; path = sr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7134BAF02A5FBEBB00736C4E /* FeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackController.swift; sourceTree = "<group>"; };
+		71910AAC2A4D6B81002DA5D3 /* PrivacyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyController.swift; sourceTree = "<group>"; };
+		71910AB12A4D6C89002DA5D3 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		71910AB62A4D71BD002DA5D3 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		71910AB82A4D71D5002DA5D3 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		71910ABA2A4D8318002DA5D3 /* HelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		71910ABC2A4D882C002DA5D3 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		71C0BF7D2A65849500EB59E2 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		8295FF2CC79774B40588A0C4 /* Pods-nthLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nthLink.release.xcconfig"; path = "Target Support Files/Pods-nthLink/Pods-nthLink.release.xcconfig"; sourceTree = "<group>"; };
+		899F49E8EF2494C056D28F20 /* Pods_nthLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nthLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF78A10D87072A2D65B1B1EE /* Pods-PacketTunnel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacketTunnel.debug.xcconfig"; path = "Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel.debug.xcconfig"; sourceTree = "<group>"; };
+		E02A14BB2B89B5A9006DA35D /* HomeViewController+VPNConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+VPNConnect.swift"; sourceTree = "<group>"; };
+		E02A14BD2B89BF7E006DA35D /* HomeViewController+LoadNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+LoadNews.swift"; sourceTree = "<group>"; };
+		E05B1CCB2BD3863800DE5A13 /* News.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = News.json; sourceTree = "<group>"; };
+		E0A78E152B7AF3F10067BB27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E0A78E172B7AF6100067BB27 /* VPNServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNServiceManager.swift; sourceTree = "<group>"; };
+		E0B72E2D2B8F0A5A00463934 /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		E0B72E2F2B8F10CB00463934 /* HomeNotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNotificationTableViewCell.swift; sourceTree = "<group>"; };
+		E0B72E302B8F10CB00463934 /* HomeNotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeNotificationTableViewCell.xib; sourceTree = "<group>"; };
+		E0B72E332B8F1B6500463934 /* NewsBottomListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBottomListTableViewCell.swift; sourceTree = "<group>"; };
+		E0B72E342B8F1B6500463934 /* NewsBottomListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsBottomListTableViewCell.xib; sourceTree = "<group>"; };
+		E0B72E3C2B907F1300463934 /* Utilities+Cacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+Cacher.swift"; sourceTree = "<group>"; };
+		E0D4D4882B957C6700650572 /* ServerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerData.swift; sourceTree = "<group>"; };
+		E0FF0BA12B80C74A00775A98 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0FF0BA42B80C80200775A98 /* AppBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseViewController.swift; sourceTree = "<group>"; };
+		E0FF0BA62B80C85900775A98 /* Utilities+StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+StatusBar.swift"; sourceTree = "<group>"; };
+		E0FF0BA82B80C87400775A98 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E0FF0BAA2B80C93D00775A98 /* UIStoryBoard+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryBoard+Loader.swift"; sourceTree = "<group>"; };
+		E0FF0BAC2B80CA0000775A98 /* Utilities+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+NSObject.swift"; sourceTree = "<group>"; };
+		E0FF0BB02B80CC0400775A98 /* VPNConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConstants.swift; sourceTree = "<group>"; };
+		E0FF0BB22B80D66B00775A98 /* Utilities+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+UIView.swift"; sourceTree = "<group>"; };
+		E0FF0BB42B80D6DE00775A98 /* Utilities+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+UITextField.swift"; sourceTree = "<group>"; };
+		E0FF0BB62B80DA6C00775A98 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		E0FF0BBA2B80DBD600775A98 /* LocalizedStringEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStringEnum.swift; sourceTree = "<group>"; };
+		E0FF0BBC2B80DCA900775A98 /* Utilities+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+UILabel.swift"; sourceTree = "<group>"; };
+		E0FF0BBE2B80DE9F00775A98 /* Utilities+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities+UIButton.swift"; sourceTree = "<group>"; };
+		E0FF0BC42B80F73E00775A98 /* FeedbackServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackServiceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24618205292C9A8E006962D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA45CB4D90088814CD6F9B62 /* Pods_nthLink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24618220292CA960006962D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24618226292CA960006962D7 /* NetworkExtension.framework in Frameworks */,
+				300F0865481F557E571A8A47 /* Pods_PacketTunnel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246181FF292C9A8E006962D7 = {
+			isa = PBXGroup;
+			children = (
+				2461820A292C9A8E006962D7 /* nthLink */,
+				24618227292CA960006962D7 /* PacketTunnel */,
+				24618224292CA960006962D7 /* Frameworks */,
+				24618209292C9A8E006962D7 /* Products */,
+				9FCBD207D6E2AC8E36BCCB55 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		24618209292C9A8E006962D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24618208292C9A8E006962D7 /* nthLink.app */,
+				24618223292CA960006962D7 /* PacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2461820A292C9A8E006962D7 /* nthLink */ = {
+			isa = PBXGroup;
+			children = (
+				71910AAE2A4D6C6B002DA5D3 /* Common */,
+				71910AAB2A4D6B5B002DA5D3 /* Controller */,
+				24618233292CB697006962D7 /* nthLink.entitlements */,
+				2461820B292C9A8E006962D7 /* AppDelegate.swift */,
+				E05B1CCB2BD3863800DE5A13 /* News.json */,
+				2461820D292C9A8E006962D7 /* SceneDelegate.swift */,
+				7124043D2A7249200070681B /* Localizable.strings */,
+				24618211292C9A8E006962D7 /* Main.storyboard */,
+				24618214292C9A90006962D7 /* Assets.xcassets */,
+				24618216292C9A90006962D7 /* LaunchScreen.storyboard */,
+				24618219292C9A90006962D7 /* Info.plist */,
+			);
+			path = nthLink;
+			sourceTree = "<group>";
+		};
+		24618224292CA960006962D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24618225292CA960006962D7 /* NetworkExtension.framework */,
+				3DEE3C323D14C91FD20EB1CD /* Pods_PacketTunnel.framework */,
+				899F49E8EF2494C056D28F20 /* Pods_nthLink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24618227292CA960006962D7 /* PacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				24618228292CA960006962D7 /* PacketTunnelProvider.swift */,
+				24E3DEAD29DECA9400A1DA09 /* cacert.pem */,
+				2461822A292CA960006962D7 /* Info.plist */,
+				2461822B292CA960006962D7 /* PacketTunnel.entitlements */,
+			);
+			path = PacketTunnel;
+			sourceTree = "<group>";
+		};
+		71910AAB2A4D6B5B002DA5D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0A78E132B7AF2F80067BB27 /* Home */,
+				E0FF0BB82B80DB4400775A98 /* Privacy */,
+				E0FF0BC02B80E1EA00775A98 /* Menu */,
+				E0FF0BC12B80E25000775A98 /* Help */,
+				E0FF0BC22B80E45B00775A98 /* Splash */,
+				E0FF0BC32B80F72300775A98 /* Feedback */,
+				E0B72E3B2B8F3A2C00463934 /* NewsView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71910AAE2A4D6C6B002DA5D3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E0FF0BA12B80C74A00775A98 /* Constants.swift */,
+				71910AB12A4D6C89002DA5D3 /* Extension.swift */,
+				E0FF0BB62B80DA6C00775A98 /* AppConfiguration.swift */,
+				E0FF0BAE2B80CBB000775A98 /* Utilities */,
+				E0FF0BB92B80DBA000775A98 /* Localization */,
+				E0FF0BAF2B80CBC300775A98 /* VPNManager */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9FCBD207D6E2AC8E36BCCB55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF78A10D87072A2D65B1B1EE /* Pods-PacketTunnel.debug.xcconfig */,
+				0F1DB126B0E9EF44BF670D56 /* Pods-PacketTunnel.release.xcconfig */,
+				1C5CFA8B029109BD6F7F0600 /* Pods-nthLink.debug.xcconfig */,
+				8295FF2CC79774B40588A0C4 /* Pods-nthLink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0A78E132B7AF2F80067BB27 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0A78E152B7AF3F10067BB27 /* HomeViewController.swift */,
+				E02A14BB2B89B5A9006DA35D /* HomeViewController+VPNConnect.swift */,
+				E02A14BD2B89BF7E006DA35D /* HomeViewController+LoadNews.swift */,
+				E0B72E2D2B8F0A5A00463934 /* NewsData.swift */,
+				E0D4D4882B957C6700650572 /* ServerData.swift */,
+				E0A78E142B7AF3090067BB27 /* Cells */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E0A78E142B7AF3090067BB27 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E0B72E2F2B8F10CB00463934 /* HomeNotificationTableViewCell.swift */,
+				E0B72E302B8F10CB00463934 /* HomeNotificationTableViewCell.xib */,
+				E0B72E332B8F1B6500463934 /* NewsBottomListTableViewCell.swift */,
+				E0B72E342B8F1B6500463934 /* NewsBottomListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E0B72E3B2B8F3A2C00463934 /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				71C0BF7D2A65849500EB59E2 /* NewsController.swift */,
+			);
+			path = NewsView;
+			sourceTree = "<group>";
+		};
+		E0FF0BAE2B80CBB000775A98 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E0FF0BA42B80C80200775A98 /* AppBaseViewController.swift */,
+				E0FF0BAA2B80C93D00775A98 /* UIStoryBoard+Loader.swift */,
+				E0FF0BAC2B80CA0000775A98 /* Utilities+NSObject.swift */,
+				E0FF0BB22B80D66B00775A98 /* Utilities+UIView.swift */,
+				E0FF0BBC2B80DCA900775A98 /* Utilities+UILabel.swift */,
+				E0FF0BB42B80D6DE00775A98 /* Utilities+UITextField.swift */,
+				E0B72E3C2B907F1300463934 /* Utilities+Cacher.swift */,
+				E0FF0BBE2B80DE9F00775A98 /* Utilities+UIButton.swift */,
+				E0FF0BA62B80C85900775A98 /* Utilities+StatusBar.swift */,
+				E0FF0BA82B80C87400775A98 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E0FF0BAF2B80CBC300775A98 /* VPNManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0A78E172B7AF6100067BB27 /* VPNServiceManager.swift */,
+				E0FF0BB02B80CC0400775A98 /* VPNConstants.swift */,
+			);
+			path = VPNManager;
+			sourceTree = "<group>";
+		};
+		E0FF0BB82B80DB4400775A98 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				71910AAC2A4D6B81002DA5D3 /* PrivacyController.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		E0FF0BB92B80DBA000775A98 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				E0FF0BBA2B80DBD600775A98 /* LocalizedStringEnum.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		E0FF0BC02B80E1EA00775A98 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				71910AB82A4D71D5002DA5D3 /* RootView.swift */,
+				71910AB62A4D71BD002DA5D3 /* MenuController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E0FF0BC12B80E25000775A98 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				71910ABA2A4D8318002DA5D3 /* HelpController.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		E0FF0BC22B80E45B00775A98 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				71910ABC2A4D882C002DA5D3 /* SplashController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E0FF0BC32B80F72300775A98 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				7134BAF02A5FBEBB00736C4E /* FeedbackController.swift */,
+				E0FF0BC42B80F73E00775A98 /* FeedbackServiceManager.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24618207292C9A8E006962D7 /* nthLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2461821C292C9A90006962D7 /* Build configuration list for PBXNativeTarget "nthLink" */;
+			buildPhases = (
+				3A6CCA6361DC36EBE3BAC22A /* [CP] Check Pods Manifest.lock */,
+				24618204292C9A8E006962D7 /* Sources */,
+				24618205292C9A8E006962D7 /* Frameworks */,
+				24618206292C9A8E006962D7 /* Resources */,
+				2461822F292CA960006962D7 /* Embed Foundation Extensions */,
+				24286F762939516200ED6C41 /* Embed Frameworks */,
+				EDD1DDB02EC2A125C8343614 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2461822D292CA960006962D7 /* PBXTargetDependency */,
+			);
+			name = nthLink;
+			packageProductDependencies = (
+			);
+			productName = "teonvpn-ios-demo";
+			productReference = 24618208292C9A8E006962D7 /* nthLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24618222292CA960006962D7 /* PacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24618232292CA960006962D7 /* Build configuration list for PBXNativeTarget "PacketTunnel" */;
+			buildPhases = (
+				B5A6B3E0E3CFF05122A0F5D1 /* [CP] Check Pods Manifest.lock */,
+				2461821F292CA960006962D7 /* Sources */,
+				24618220292CA960006962D7 /* Frameworks */,
+				24618221292CA960006962D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacketTunnel;
+			packageProductDependencies = (
+			);
+			productName = PacketTunnel;
+			productReference = 24618223292CA960006962D7 /* PacketTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24618200292C9A8E006962D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					24618207292C9A8E006962D7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					24618222292CA960006962D7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 24618203292C9A8E006962D7 /* Build configuration list for PBXProject "nthLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				ca,
+				"zh-Hans",
+				"zh-Hant",
+				hr,
+				cs,
+				da,
+				nl,
+				fi,
+				fr,
+				"fr-CA",
+				de,
+				el,
+				hi,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nb,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				ru,
+				sk,
+				es,
+				"es-419",
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				lv,
+				lt,
+				am,
+				bg,
+				fa,
+				sr,
+			);
+			mainGroup = 246181FF292C9A8E006962D7;
+			productRefGroup = 24618209292C9A8E006962D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24618207292C9A8E006962D7 /* nthLink */,
+				24618222292CA960006962D7 /* PacketTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24618206292C9A8E006962D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7124043B2A7249200070681B /* Localizable.strings in Resources */,
+				24618218292C9A90006962D7 /* LaunchScreen.storyboard in Resources */,
+				E0B72E362B8F1B6500463934 /* NewsBottomListTableViewCell.xib in Resources */,
+				24618215292C9A90006962D7 /* Assets.xcassets in Resources */,
+				24618213292C9A8E006962D7 /* Main.storyboard in Resources */,
+				E05B1CCC2BD3863800DE5A13 /* News.json in Resources */,
+				E0B72E322B8F10CB00463934 /* HomeNotificationTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24618221292CA960006962D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E3DEAE29DECA9400A1DA09 /* cacert.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A6CCA6361DC36EBE3BAC22A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nthLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5A6B3E0E3CFF05122A0F5D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PacketTunnel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD1DDB02EC2A125C8343614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nthLink/Pods-nthLink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nthLink/Pods-nthLink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nthLink/Pods-nthLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24618204292C9A8E006962D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FF0BA52B80C80200775A98 /* AppBaseViewController.swift in Sources */,
+				E0B72E312B8F10CB00463934 /* HomeNotificationTableViewCell.swift in Sources */,
+				71910AB72A4D71BD002DA5D3 /* MenuController.swift in Sources */,
+				E0FF0BAD2B80CA0000775A98 /* Utilities+NSObject.swift in Sources */,
+				E0FF0BA92B80C87400775A98 /* Utilities.swift in Sources */,
+				E02A14BE2B89BF7E006DA35D /* HomeViewController+LoadNews.swift in Sources */,
+				71910AB22A4D6C89002DA5D3 /* Extension.swift in Sources */,
+				71C0BF7E2A65849500EB59E2 /* NewsController.swift in Sources */,
+				E0FF0BAB2B80C93D00775A98 /* UIStoryBoard+Loader.swift in Sources */,
+				E0FF0BC52B80F73E00775A98 /* FeedbackServiceManager.swift in Sources */,
+				E02A14BC2B89B5A9006DA35D /* HomeViewController+VPNConnect.swift in Sources */,
+				E0A78E182B7AF6100067BB27 /* VPNServiceManager.swift in Sources */,
+				E0FF0BBD2B80DCA900775A98 /* Utilities+UILabel.swift in Sources */,
+				E0FF0BB32B80D66B00775A98 /* Utilities+UIView.swift in Sources */,
+				E0FF0BB12B80CC0400775A98 /* VPNConstants.swift in Sources */,
+				E0FF0BB52B80D6DE00775A98 /* Utilities+UITextField.swift in Sources */,
+				E0B72E2E2B8F0A5A00463934 /* NewsData.swift in Sources */,
+				71910AAD2A4D6B81002DA5D3 /* PrivacyController.swift in Sources */,
+				E0FF0BBF2B80DE9F00775A98 /* Utilities+UIButton.swift in Sources */,
+				71910AB92A4D71D5002DA5D3 /* RootView.swift in Sources */,
+				71910ABD2A4D882C002DA5D3 /* SplashController.swift in Sources */,
+				E0D4D4892B957C6700650572 /* ServerData.swift in Sources */,
+				71910ABB2A4D8318002DA5D3 /* HelpController.swift in Sources */,
+				E0FF0BBB2B80DBD600775A98 /* LocalizedStringEnum.swift in Sources */,
+				E0A78E162B7AF3F10067BB27 /* HomeViewController.swift in Sources */,
+				E0B72E3D2B907F1300463934 /* Utilities+Cacher.swift in Sources */,
+				7134BAF12A5FBEBB00736C4E /* FeedbackController.swift in Sources */,
+				E0B72E352B8F1B6500463934 /* NewsBottomListTableViewCell.swift in Sources */,
+				E0FF0BA22B80C74A00775A98 /* Constants.swift in Sources */,
+				2461820C292C9A8E006962D7 /* AppDelegate.swift in Sources */,
+				2461820E292C9A8E006962D7 /* SceneDelegate.swift in Sources */,
+				E0FF0BA72B80C85900775A98 /* Utilities+StatusBar.swift in Sources */,
+				E0FF0BB72B80DA6C00775A98 /* AppConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2461821F292CA960006962D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D4D48A2B957D5800650572 /* VPNConstants.swift in Sources */,
+				24618229292CA960006962D7 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2461822D292CA960006962D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24618222292CA960006962D7 /* PacketTunnel */;
+			targetProxy = 2461822C292CA960006962D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24618211292C9A8E006962D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24618212292C9A8E006962D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24618216292C9A90006962D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24618217292C9A90006962D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7124043D2A7249200070681B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7124043C2A7249200070681B /* en */,
+				7124043E2A7249570070681B /* ar */,
+				7124043F2A7249600070681B /* ca */,
+				712404402A72496F0070681B /* zh-Hans */,
+				712404412A7249750070681B /* zh-Hant */,
+				712404422A7249930070681B /* hr */,
+				712404432A72499B0070681B /* cs */,
+				712404442A7249A30070681B /* da */,
+				712404452A7249AB0070681B /* nl */,
+				712404462A7249BC0070681B /* fi */,
+				712404472A7249C60070681B /* fr */,
+				712404482A7249D20070681B /* fr-CA */,
+				712404492A7249DB0070681B /* de */,
+				7124044A2A7249E30070681B /* el */,
+				7124044B2A7249EB0070681B /* hi */,
+				7124044C2A7249F50070681B /* hu */,
+				7124044D2A724A000070681B /* id */,
+				7124044E2A724A080070681B /* it */,
+				7124044F2A724A0F0070681B /* ja */,
+				712404502A724A1F0070681B /* ko */,
+				712404512A724A2D0070681B /* ms */,
+				712404522A724A380070681B /* nb */,
+				712404532A724A480070681B /* pl */,
+				712404542A724A540070681B /* pt-BR */,
+				712404552A724A5B0070681B /* pt-PT */,
+				712404562A724A660070681B /* ro */,
+				712404572A724A6C0070681B /* ru */,
+				712404582A724A780070681B /* sk */,
+				712404592A724A830070681B /* es */,
+				7124045A2A724A890070681B /* es-419 */,
+				7124045B2A724A900070681B /* sv */,
+				7124045C2A724A970070681B /* th */,
+				7124045D2A724A9D0070681B /* tr */,
+				7124045E2A724AA60070681B /* uk */,
+				7124045F2A724AAC0070681B /* vi */,
+				712404602A724AC60070681B /* lv */,
+				712404612A724AD90070681B /* lt */,
+				712404622A724B040070681B /* am */,
+				712404632A724B130070681B /* bg */,
+				712404642A724B410070681B /* fa */,
+				712404652A724B610070681B /* sr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2461821A292C9A90006962D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2461821B292C9A90006962D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2461821D292C9A90006962D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5CFA8B029109BD6F7F0600 /* Pods-nthLink.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nthLink/nthLink.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = AKNPAU674J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nthLink/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.3.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nthlink.ios.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2461821E292C9A90006962D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8295FF2CC79774B40588A0C4 /* Pods-nthLink.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nthLink/nthLink.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = AKNPAU674J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nthLink/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.3.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nthlink.ios.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24618230292CA960006962D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF78A10D87072A2D65B1B1EE /* Pods-PacketTunnel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKNPAU674J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PacketTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 6.2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nthlink.ios.client.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24618231292CA960006962D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1DB126B0E9EF44BF670D56 /* Pods-PacketTunnel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AKNPAU674J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PacketTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PacketTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 6.2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nthlink.ios.client.PacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24618203292C9A8E006962D7 /* Build configuration list for PBXProject "nthLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2461821A292C9A90006962D7 /* Debug */,
+				2461821B292C9A90006962D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2461821C292C9A90006962D7 /* Build configuration list for PBXNativeTarget "nthLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2461821D292C9A90006962D7 /* Debug */,
+				2461821E292C9A90006962D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24618232292CA960006962D7 /* Build configuration list for PBXNativeTarget "PacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24618230292CA960006962D7 /* Debug */,
+				24618231292CA960006962D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24618200292C9A8E006962D7 /* Project object */;
+}

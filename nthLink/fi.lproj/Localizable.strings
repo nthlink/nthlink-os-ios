@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Yksityisyytesi on etusijalla";
+"privacy_notice_text" = "nthLink EI kerää henkilökohtaisia tunnistetietoja tai verkkosivustoja / verkkopalveluita, joissa vierailet. nthLink käyttää IP-osoitettasi, laitteesi oletuskieltä, evästeitä ja laitteen perustietoja ( esim. käyttöjärjestelmätietoja) mukauttaakseen vastaanottamasi palvelut, kuten lähimpien palvelinten paikallistamisen, jotka voivat parhaiten tukea laitettasi ja näyttää oikean web-sivun, kun muodostat yhteyden nthLink-palvelin.";
+"privacy_notice_submit" = "Hyväksy ja jatka";
+"connection_hint_connect" = "Napauta Muodosta yhteys";
+"connection_hint_disconnect" = "Katkaise yhteys napauttamalla";
+"Connect" = "Kytkeä";
+"Disconnect" = "Katkaista";
+"Connected" = "Yhdistetty";
+"Connecting" = "Yhdistetään…";
+"Disconnecting" = "Katkaistaan…";
+"connection_error" = "yhteysvirhe";
+"feedback_page_title" = "Palaute";
+"feedback_issue_category_title" = "Ongelman luokka";
+"feedback_description_title" = "Kuvaus";
+"feedback_note_text" = "Kuvauksesi, sähköpostiosoitteesi (jos annettu) ja lisätietosi lähetetään nthLink-tiimille. Katso nthLink-verkkosivuston tietosuojakäytännöstä tiedonkeruukäytäntömme.";
+"feedback_submit" = "Lähettää";
+"feedback_submit_failed_message" = "Ei voi muodostaa yhteyttä nthlink-palvelimeen.";
+"feedback_submit_success_message" = "Kiitos, että autat meitä parantamaan! Rakastamme kuulla sinusta.";
+"feedback_init_failed_message" = "Ei ole palvelinta";
+"about_page_title" = "Noin";
+"about_version" = "Versio";
+"about_text" = "<p>Olemme joukko kokeneita ohjelmisto- ja tietoturvainsinöörejä, jotka aloittivat nthLinkin vuonna 2016 tukemaan ihmisoikeusjuristeja, jotka tarvitsivat rajoitetun tiedon hankkimista ja näkemyksensä ilmaisemista. Siitä lähtien olemme tarjonneet palvelun laajemman yleisön saataville. Kehitystiimimme on sekä verkkoturvatekniikan että palvelun luotettavuuden asiantuntijoita.<br>Palvelumme on ilmainen ja pysyy maksuttomana sponsoridemme ja yhteistyökumppaneidemme ansiosta. He ovat:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>ehitystiimimme on erinomaista sekä sensuurin kiertämistekniikan hienostuneisuudessa että palvelun luotettavuudessa. Vuosien kokemuksella tällä erikoisalalla tarjoamme käyttäjille kohdistetulla maantieteellisellä alueella yksinkertaisen, turvallisen ja luotettavan pääsyn muuten sensuroituun tietoon.</p>";
+"menu_drawer_item_1" = "Koti";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Auta";
+"menu_drawer_item_5" = "Arvostele sovellus";
+"menu_web_item_1" = "Kopioi linkki";
+"menu_web_item_2" = "Avaa selaimessa";
+"menu_web_item_3" = "Jaa linkki";
+"menu_connection_item_1" = "Aloitussivu";
+"word_loading" = "Ladataan";
+"word_coped_link" = "Selvitetty linkki";
+"issue_categories_1" = "Yleinen palaute";
+"issue_categories_2" = "Ei pysty yhdistämään";
+"issue_categories_3" = "Yhteysnopeus on hidas";
+"issue_categories_4" = "Ehdotukset";
+"issue_categories_5" = "Muut";
+
+
+"menu_drawer_item_privacy_policy" = "Tietosuojakäytäntö";
+"feedbackDescTextFieldInitialText" = "(sisällytä enemmän tietoa)";
+"feedbackErrorSelectType" = "Valitse virhetyyppi";
+"feedbackErrorAddDescription" = "Syötä kuvaus";
+"somethingWentWrong" = "Jotain meni pieleen. Yritä myöhemmin uudelleen.";
+"Notice" = "Huomautus";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Sähköpostiosoitteesi (valinnainen)";
+"feedbackSubtext" = "Jos annat sähköpostiosoitteesi, voimme ottaa sinuun yhteyttä saadaksemme lisätietoja pyynnöstäsi.";
+"feedbackSelectIssueButton" = "Valitse ongelma";
+"aboutVisitOurHomeText" = "Vieraile kotisivullamme";
+"privacyPolicyAgreeButton" = "Hyväksy ja jatka";
+"privacyPolicyLearnMoreButton" = "Lisätietoja nthLinkistä";
+"homeReadLatestNews" = "Lue viimeisimmät uutiset";

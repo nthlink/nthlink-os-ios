@@ -1,0 +1,6 @@
+framework module Pods_nthLink {
+  umbrella header "Pods-nthLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

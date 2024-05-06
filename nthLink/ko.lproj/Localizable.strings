@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "귀하의 개인 정보가 우선입니다";
+"privacy_notice_text" = "nthLink는 귀하가 방문하는 개인 식별 정보 또는 웹사이트 / 온라인 서비스를 수집하지 않습니다. nthLink 서버에 연결하여 귀하의 IP 주소, 장치의 기본 언어, 쿠키 및 기본 장치 정보 ( 예: 운영 체제 정보)를 사용하여 귀하의 장치를 가장 잘 지원할 수 있는 가장 가까운 서버를 찾고 연결 시 적절한 웹 페이지를 표시하는 등 귀하가 받는 서비스를 사용자 정의합니다.";
+"privacy_notice_submit" = "수락 및 계속";
+"connection_hint_connect" = "탭하여 연결";
+"connection_hint_disconnect" = "탭하여 연결 해제";
+"Connect" = "연결";
+"Disconnect" = "연결 해제";
+"Connected" = "연결됨";
+"Connecting" = "연결 중…";
+"Disconnecting" = "연결 해제 중…";
+"connection_error" = "연결 오류";
+"feedback_page_title" = "피드백";
+"feedback_issue_category_title" = "문제 카테고리";
+"feedback_description_title" = "설명";
+"feedback_note_text" = "귀하의 설명, 이메일 주소(제공된 경우) 및 추가 정보가 nthLink 팀으로 전송됩니다. 당사의 데이터 수집 정책은 nthLink 웹사이트의 개인정보 보호정책을 참조하십시오.";
+"feedback_submit" = "보내기";
+"feedback_submit_failed_message" = "nthlink 서버에 연결할 수 없습니다.";
+"feedback_submit_success_message" = "개선하는 데 도움을 주셔서 감사합니다! 우리는 당신의 의견을 듣는 것을 좋아합니다.";
+"feedback_init_failed_message" = "서버 없음";
+"about_page_title" = "정보";
+"about_version" = "버전";
+"about_text" = "<p>우리는 제한된 정보를 얻고 자신의 관점을 표현해야 하는 인권 변호사를 지원하기 위해 2016년 nthLink를 시작한 숙련된 소프트웨어 및 정보 보안 엔지니어 그룹입니다. 그 이후로 우리는 더 많은 대중에게 서비스를 제공했습니다. 우리 개발팀은 네트워크 보안 기술과 서비스 안정성 분야의 전문가입니다.<br>우리의 서비스는 무료이며 후원자와 파트너 덕분에 계속 무료로 유지될 것입니다. 그들은:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>우리 개발 팀은 검열 우회 기술의 정교함과 서비스의 신뢰성 모두에서 탁월합니다. 이 전문 분야에서 다년간의 경험을 바탕으로 대상 지역의 사용자에게 검열된 정보에 간단하고 안전하며 신뢰할 수 있는 액세스를 제공합니다.</p>";
+"menu_drawer_item_1" = "홈";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "도움말";
+"menu_drawer_item_5" = "앱 평가";
+"menu_web_item_1" = "링크 복사";
+"menu_web_item_2" = "브라우저에서 열기";
+"menu_web_item_3" = "링크 공유";
+"menu_connection_item_1" = "랜딩 페이지";
+"word_loading" = "로딩 중...";
+"word_coped_link" = "대응 링크";
+"issue_categories_1" = "일반 피드백";
+"issue_categories_2" = "연결할 수 없습니다";
+"issue_categories_3" = "연결 속도가 느립니다";
+"issue_categories_4" = "제안";
+"issue_categories_5" = "기타";
+
+
+"menu_drawer_item_privacy_policy" = "개인 정보 정책";
+"feedbackDescTextFieldInitialText" = "(자세한 정보 포함)";
+"feedbackErrorSelectType" = "오류 유형을 선택하십시오";
+"feedbackErrorAddDescription" = "설명을 입력하십시오";
+"somethingWentWrong" = "문제가 발생했습니다. 나중에 다시 시도하십시오.";
+"Notice" = "공고";
+"OK" = "확인";
+"feedbackDescEmailIDLabel" = "귀하의 이메일 주소 (선택 사항)";
+"feedbackSubtext" = "귀하의 이메일 주소를 제공하면 귀하의 요청에 대한 자세한 내용을 알려 드릴 수 있습니다.";
+"feedbackSelectIssueButton" = "문제 선택";
+"aboutVisitOurHomeText" = "우리 홈페이지 방문하기";
+"privacyPolicyAgreeButton" = "동의하고 계속하기";
+"privacyPolicyLearnMoreButton" = "nthLink에 대해 자세히 알아보기";
+"homeReadLatestNews" = "최신 뉴스 읽기";

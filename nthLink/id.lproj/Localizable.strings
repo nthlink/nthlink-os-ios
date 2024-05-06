@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Privasi Anda sangat diutamakan";
+"privacy_notice_text" = "nthLink TIDAK mengumpulkan informasi pengenal pribadi atau situs web / layanan online yang Anda kunjungi. nthLink menggunakan alamat IP Anda, bahasa default perangkat, cookie, dan informasi perangkat dasar ( misalnya informasi sistem operasi) untuk menyesuaikan layanan yang Anda terima seperti mencari server terdekat yang paling mendukung perangkat Anda dan menampilkan halaman web yang tepat saat tersambung ke server nthLink.";
+"privacy_notice_submit" = "Terima dan lanjutkan";
+"connection_hint_connect" = "Ketuk Untuk Terhubung";
+"connection_hint_disconnect" = "Ketuk Untuk Memutuskan";
+"Connect" = "Hubungkan";
+"Disconnect" = "Putuskan";
+"Connected" = "Terhubung";
+"Connecting" = "Menghubungkan…";
+"Disconnecting" = "Memutuskan sambungan…";
+"connection_error" = "koneksi_error";
+"feedback_page_title" = "Masukan";
+"feedback_issue_category_title" = "Kategori masalah";
+"feedback_description_title" = "Keterangan";
+"feedback_note_text" = "Deskripsi Anda, alamat email (jika disediakan), dan informasi tambahan akan dikirim ke tim nthLink. Silakan merujuk ke Kebijakan Privasi situs web nthLink untuk kebijakan pengumpulan data kami.";
+"feedback_submit" = "Kirim";
+"feedback_submit_failed_message" = "Tidak dapat terhubung ke server nthlink.";
+"feedback_submit_success_message" = "Terima kasih telah membantu kami meningkatkan! Kami senang mendengar dari Anda.";
+"feedback_init_failed_message" = "Tidak memiliki server";
+"about_page_title" = "Tentang";
+"about_version" = "Versi";
+"about_text" = "<p>Kami adalah sekelompok insinyur perangkat lunak dan keamanan informasi berpengalaman yang memulai nthLink pada tahun 2016 untuk mendukung pengacara hak asasi manusia yang perlu memperoleh informasi terbatas dan untuk mengekspresikan perspektif mereka. Sejak itu kami telah membuat layanan ini tersedia untuk masyarakat luas. Tim pengembangan kami ahli dalam teknologi keamanan jaringan dan keandalan layanan.<br>Layanan kami gratis dan akan tetap gratis berkat sponsor dan mitra kami. Mereka:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Tim pengembangan kami unggul dalam kecanggihan teknologi pengelakan sensor dan keandalan layanan. Dengan pengalaman bertahun-tahun di bidang khusus ini, kami menyediakan akses yang sederhana, aman, dan andal kepada pengguna di wilayah yang ditargetkan ke informasi yang disensor.</p>";
+"menu_drawer_item_1" = "Rumah";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Bantuan";
+"menu_drawer_item_5" = "Nilai Aplikasi";
+"menu_web_item_1" = "Salin tautan";
+"menu_web_item_2" = "Buka di browser";
+"menu_web_item_3" = "Bagikan tautan";
+"menu_connection_item_1" = "Halaman Arahan";
+"word_loading" = "Memuat";
+"word_coped_link" = "Tautan disalin";
+"issue_categories_1" = "Masukan umum";
+"issue_categories_2" = "Tidak dapat terhubung";
+"issue_categories_3" = "Kecepatan koneksi lambat";
+"issue_categories_4" = "Saran";
+"issue_categories_5" = "Lainnya";
+
+
+"menu_drawer_item_privacy_policy" = "Kebijakan Privasi";
+"feedbackDescTextFieldInitialText" = "(sertakan informasi lebih lanjut)";
+"feedbackErrorSelectType" = "Harap pilih jenis kesalahan";
+"feedbackErrorAddDescription" = "Harap masukkan deskripsi";
+"somethingWentWrong" = "Ada kesalahan. Silakan coba lagi nanti.";
+"Notice" = "Pemberitahuan";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Alamat email Anda (opsional)";
+"feedbackSubtext" = "Jika Anda memberikan alamat email Anda, kami mungkin akan menghubungi Anda untuk informasi lebih lanjut tentang permintaan Anda.";
+"feedbackSelectIssueButton" = "Pilih masalah";
+"aboutVisitOurHomeText" = "Kunjungi beranda kami";
+"privacyPolicyAgreeButton" = "Setuju dan lanjutkan";
+"privacyPolicyLearnMoreButton" = "Pelajari lebih lanjut tentang nthLink";
+"homeReadLatestNews" = "Baca Berita Terbaru";

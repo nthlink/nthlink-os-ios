@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Ваша конфіденційність на першому місці";
+"privacy_notice_text" = "nthLink НЕ збирає персональну інформацію або дані про веб-сайти/онлайн-сервіси, які ви відвідуєте. nthLink використовує вашу IP-адресу, мову пристрою за замовчуванням, файли cookie та основну інформацію про пристрій (наприклад, інформацію про операційну систему), щоб налаштувати послуги, які ви отримуєте, наприклад, місцезнаходження найближчих серверів, які найкраще підтримують ваш пристрій, і відображення належної веб-сторінки після підключення до серверу nthLink.";
+"privacy_notice_submit" = "Прийняти і продовжувати";
+"connection_hint_connect" = "Торкніться, щоб підключитися";
+"connection_hint_disconnect" = "Торкніться, щоб відключити";
+"Connect" = "Підключити";
+"Disconnect" = "Відключити";
+"Connected" = "Підключено";
+"Connecting" = "Підключення…";
+"Disconnecting" = "Відключення…";
+"connection_error" = "помилка з\'єднання";
+"feedback_page_title" = "Відгук";
+"feedback_issue_category_title" = "Категорія проблеми";
+"feedback_description_title" = "Опис";
+"feedback_note_text" = "Ваш опис, адреса електронної пошти (якщо вказано) та додаткова інформація буде надіслано команді nthLink. Будь ласка, зверніться до Політики конфіденційності веб-сайту nthLink для ознайомлення з нашою політикою щодо збору даних.";
+"feedback_submit" = "Надіслати";
+"feedback_submit_failed_message" = "Не вдається підключитися до сервера nthlink.";
+"feedback_submit_success_message" = "Дякуємо, що допомагаєте нам покращуватись! Ми любимо чути від вас.";
+"feedback_init_failed_message" = "Немає сервера";
+"about_page_title" = "Про програму";
+"about_version" = "Версія";
+"about_text" = "<p>Ми є групою досвідчених інженерів із програмного забезпечення та інформаційної безпеки, які започаткували nthLink у 2016 році для підтримки юристів-правозахисників, яким потрібно було отримати інформацію з обмеженим доступом і висловити свою точку зору. Відтоді ми зробили послугу доступною для широкої громадськості. Наша команда розробників є експертами як у технологіях мережевої безпеки, так і в надійності послуг.<br>Наша послуга безкоштовна і залишатиметься безкоштовною завдяки нашим спонсорам і партнерам. Вони є:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Наша команда розробників відрізняється як витонченістю технології обходу цензури, так і надійністю сервісу. Маючи багаторічний досвід у цій галузі, ми надаємо користувачам у цільових регіонах простий, безпечний та надійний доступ до інформації, що піддається цензурі.</p>";
+"menu_drawer_item_1" = "Головна";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Допомога";
+"menu_drawer_item_5" = "Оцінити програму";
+"menu_web_item_1" = "Копіювати посилання";
+"menu_web_item_2" = "Відкрити в браузері";
+"menu_web_item_3" = "Розповсюдити посилання";
+"menu_connection_item_1" = "Цільова сторінка";
+"word_loading" = "Завантаження";
+"word_coped_link" = "Посилання скопійовано";
+"issue_categories_1" = "Загальний відгук";
+"issue_categories_2" = "Не вдається підключитися";
+"issue_categories_3" = "Швидкість підключення низька";
+"issue_categories_4" = "Пропозиції";
+"issue_categories_5" = "Інше";
+
+
+"menu_drawer_item_privacy_policy" = "Політика конфіденційності";
+"feedbackDescTextFieldInitialText" = "(додати більше інформації)";
+"feedbackErrorSelectType" = "Виберіть тип помилки";
+"feedbackErrorAddDescription" = "Будь ласка, введіть опис";
+"somethingWentWrong" = "Щось пішло не так. Будь ласка, спробуйте пізніше.";
+"Notice" = "Повідомлення";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Ваша електронна адреса (необов'язково)";
+"feedbackSubtext" = "Якщо ви вкажете свою електронну адресу, ми можемо зв'язатися з вами для отримання додаткової інформації про ваш запит.";
+"feedbackSelectIssueButton" = "Виберіть проблему";
+"aboutVisitOurHomeText" = "Відвідайте наш домашній сайт";
+"privacyPolicyAgreeButton" = "Погодитися і продовжити";
+"privacyPolicyLearnMoreButton" = "Дізнатися більше про nthLink";
+"homeReadLatestNews" = "Прочитати останні новини";

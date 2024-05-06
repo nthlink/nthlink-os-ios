@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Uw privacy staat voorop";
+"privacy_notice_text" = "nthLink verzamelt GEEN persoonsgegevens of websites / online diensten die u bezoekt. nthLink gebruikt uw IP-adres, de standaardtaal van het apparaat, cookies en basisinformatie over het apparaat ( bijv. informatie over het besturingssysteem) om de services die u ontvangt aan te passen, zoals het lokaliseren van de dichtstbijzijnde servers die uw apparaat het beste kunnen ondersteunen en het weergeven van de juiste webpagina wanneer u verbinding maakt met de nthLink-server.";
+"privacy_notice_submit" = "Accepteren en doorgaan";
+"connection_hint_connect" = "Tik om verbinding te maken";
+"connection_hint_disconnect" = "Tik om de verbinding te verbreken";
+"Connect" = "Aansluiten";
+"Disconnect" = "Loskoppelen";
+"Connected" = "Verbonden";
+"Connecting" = "Bezig te verbinden…";
+"Disconnecting" = "Bezig verbinding te verbreken…";
+"connection_error" = "verbindingsfout";
+"feedback_page_title" = "Feedback";
+"feedback_issue_category_title" = "Probleemcategorie";
+"feedback_description_title" = "Beschrijving";
+"feedback_note_text" = "Uw beschrijving, e-mailadres (indien opgegeven) en aanvullende informatie worden naar het nthLink-team gestuurd. Raadpleeg het privacybeleid van de nthLink-website voor ons beleid inzake gegevensverzameling.";
+"feedback_submit" = "Versturen";
+"feedback_submit_failed_message" = "Kan geen verbinding met de nthlink-server maken.";
+"feedback_submit_success_message" = "Bedankt voor het helpen verbeteren! We horen graag van u.";
+"feedback_init_failed_message" = "Heb geen server";
+"about_page_title" = "Over";
+"about_version" = "Versie";
+"about_text" = "<p>Wij zijn een groep ervaren software- en informatiebeveiligingsingenieurs die in 2016 nthLink zijn gestart om mensenrechtenadvocaten te ondersteunen die beperkte informatie moesten verkrijgen en hun perspectieven moesten uiten. Sindsdien hebben we de dienst beschikbaar gemaakt voor een breder publiek. Ons ontwikkelingsteam is expert op het gebied van zowel netwerkbeveiligingstechnologie als servicebetrouwbaarheid.<br>Onze dienstverlening is gratis en blijft gratis dankzij onze sponsors en partners. Zij zijn:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Ons ontwikkelingsteam blinkt uit in zowel de verfijning van technologie voor het omzeilen van censuur als de betrouwbaarheid van de service. Met jarenlange ervaring op dit speciale gebied bieden we de gebruikers in gerichte geografische gebieden eenvoudige, veilige en betrouwbare toegang tot anderszins gecensureerde informatie.</p>";
+"menu_drawer_item_1" = "Thuis";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Hulp";
+"menu_drawer_item_5" = "Beoordeel app";
+"menu_web_item_1" = "Link kopiëren";
+"menu_web_item_2" = "In de browser openen";
+"menu_web_item_3" = "Link delen";
+"menu_connection_item_1" = "Bestemmingspagina";
+"word_loading" = "Bezig met laden";
+"word_coped_link" = "Verwerkte link";
+"issue_categories_1" = "Algemene feedback";
+"issue_categories_2" = "Kan niet verbinden";
+"issue_categories_3" = "Verbindingssnelheid is traag";
+"issue_categories_4" = "Suggesties";
+"issue_categories_5" = "Overig";
+
+
+"menu_drawer_item_privacy_policy" = "Privacybeleid";
+"feedbackDescTextFieldInitialText" = "(meer informatie toevoegen)";
+"feedbackErrorSelectType" = "Selecteer fouttype";
+"feedbackErrorAddDescription" = "Voer beschrijving in";
+"somethingWentWrong" = "Er is iets misgegaan. Probeer het later opnieuw.";
+"Notice" = "Melding";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Uw e-mailadres (optioneel)";
+"feedbackSubtext" = "Als u uw e-mailadres opgeeft, kunnen we contact met u opnemen voor meer informatie over uw verzoek.";
+"feedbackSelectIssueButton" = "Selecteer probleem";
+"aboutVisitOurHomeText" = "Bezoek onze homepage";
+"privacyPolicyAgreeButton" = "Akkoord en doorgaan";
+"privacyPolicyLearnMoreButton" = "Meer weten over nthLink";
+"homeReadLatestNews" = "Lees het laatste nieuws";

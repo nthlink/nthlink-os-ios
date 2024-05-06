@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Gizliliğiniz her şeyden önce gelir";
+"privacy_notice_text" = "nthLink, kişisel olarak tanımlanabilir bilgileri veya ziyaret ettiğiniz web sitelerini / çevrimiçi hizmetleri TOPLAMAZ. nthLink, cihazınızı en iyi destekleyebilecek en yakın sunucuları bulmak ve bağlandığınızda uygun web sayfasını görüntülemek gibi aldığınız hizmetleri özelleştirmek için IP adresinizi, cihazın varsayılan dilini, tanımlama bilgilerini ve temel cihaz bilgilerini ( örneğin işletim sistemi bilgileri) kullanır. nthLink sunucusu.";
+"privacy_notice_submit" = "Kabul et ve devam et";
+"connection_hint_connect" = "Bağlanmak için dokunun";
+"connection_hint_disconnect" = "Bağlantıyı kesmek için dokunun";
+"Connect" = "Bağlamak";
+"Disconnect" = "Bağlantıyı kes";
+"Connected" = "Bağlı";
+"Connecting" = "Bağlanıyor…";
+"Disconnecting" = "Bağlantı kesiliyor…";
+"connection_error" = "bağlantı hatası";
+"feedback_page_title" = "Geri bildirim";
+"feedback_issue_category_title" = "Sorun kategorisi";
+"feedback_description_title" = "Açıklama";
+"feedback_note_text" = "Açıklamanız, e-posta adresiniz (varsa) ve ek bilgiler nthLink ekibine gönderilecektir. Veri toplama politikamız için lütfen nthLink web sitesinin Gizlilik Politikasına bakın.";
+"feedback_submit" = "Göndermek";
+"feedback_submit_failed_message" = "nthlink sunucusuna bağlanılamıyor.";
+"feedback_submit_success_message" = "Geliştirmemize yardımcı olduğunuz için teşekkürler! Sizden haber almayı seviyoruz.";
+"feedback_init_failed_message" = "Sunucu yok";
+"about_page_title" = "Hakkında";
+"about_version" = "Sürüm";
+"about_text" = "<p>Kısıtlı bilgilere ihtiyaç duyan insan hakları avukatlarına destek olmak ve bakış açılarını ifade etmek amacıyla 2016 yılında nthLink'i kuran deneyimli yazılım ve bilgi güvenliği mühendislerinden oluşan bir grubuz. O zamandan bu yana hizmeti daha geniş bir kitlenin kullanımına sunduk. Geliştirme ekibimiz hem ağ güvenliği teknolojisi hem de hizmet güvenilirliği konusunda uzmandır.<br>Hizmetimiz ücretsizdir ve sponsorlarımız ve ortaklarımız sayesinde ücretsiz kalacaktır. Bunlar:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Geliştirme ekibimiz, hem sansür atlatma teknolojisinin gelişmişliği hem de hizmetin güvenilirliği konusunda üstündür. Bu uzmanlık alanındaki yılların deneyimiyle, hedeflenen coğrafyalardaki kullanıcılara, aksi takdirde sansürlenmiş bilgilere basit, güvenli ve güvenilir erişim sağlıyoruz.</p>";
+"menu_drawer_item_1" = "Ev";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Yardım";
+"menu_drawer_item_5" = "Uygulamayı Değerlendir";
+"menu_web_item_1" = "Bağlantıyı kopyala";
+"menu_web_item_2" = "Tarayıcıda aç";
+"menu_web_item_3" = "Linki paylaş";
+"menu_connection_item_1" = "Açılış sayfası";
+"word_loading" = "Yükleniyor";
+"word_coped_link" = "Kopuk bağlantı";
+"issue_categories_1" = "Genel geribildirim";
+"issue_categories_2" = "Bağlanamıyor";
+"issue_categories_3" = "Bağlantı hızı yavaş";
+"issue_categories_4" = "Öneriler";
+"issue_categories_5" = "Diğer";
+
+
+"menu_drawer_item_privacy_policy" = "Gizlilik Politikası";
+"feedbackDescTextFieldInitialText" = "(daha fazla bilgi ekleyin)";
+"feedbackErrorSelectType" = "Hata türünü seçin";
+"feedbackErrorAddDescription" = "Açıklama ekleyin";
+"somethingWentWrong" = "Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.";
+"Notice" = "Uyarı";
+"OK" = "Tamam";
+"feedbackDescEmailIDLabel" = "E-posta adresiniz (isteğe bağlı)";
+"feedbackSubtext" = "E-posta adresinizi verirseniz, isteğinizle ilgili daha fazla bilgi almak için sizinle iletişime geçebiliriz.";
+"feedbackSelectIssueButton" = "Sorunu Seçin";
+"aboutVisitOurHomeText" = "Ana sayfamızı ziyaret edin";
+"privacyPolicyAgreeButton" = "Kabul Et ve Devam Et";
+"privacyPolicyLearnMoreButton" = "nthLink Hakkında Daha Fazla Bilgi Edinin";
+"homeReadLatestNews" = "En Son Haberleri Oku";

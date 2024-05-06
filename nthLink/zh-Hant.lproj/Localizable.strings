@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "同意並繼續";
+"Connect" = "連線";
+"Disconnect" = "中斷連線";
+"Home" = "首頁";
+"Feedback" = "問題回報";
+"About" = "關於我們";
+"Help" = "幫助";
+"Rate App" = "評分";
+"General Feedback" = "一般問題";
+"Cannot connect" = "無法連線";
+"Connection speed is slow" = "速度太慢";
+"Suggestions" = "建議";
+"Other" = "其他";
+"Send" = "傳送";
+"Tap To Disconnect" = "請點擊中斷連線";
+"Tap To Connect" = "請點擊連線";
+"Connecting" = "連接中...";
+"Connected" = "已連線";
+"Issue Category" = "問題類別";
+"Description" = "描述";
+"Connection error" = "連線錯誤";
+"Loading" = "讀取中";
+
+"privacy_notice_title" = "您的隱私至上";
+"privacy_notice_text" = "nthLink 不會收集您訪問的個人身份信息或網站 / 在線服務。 nthLink 使用您的 IP 地址、設備的默認語言、cookie 和基本設備信息（例如操作系統信息）來定制您收到的服務，例如定位最能支持您的設備的最近服務器以及在連接到時顯示正確的網頁 nthLink 服務器。";
+"privacy_notice_submit" = "接受並繼續";
+"connection_hint_connect" = "點擊連接";
+"connection_hint_disconnect" = "點擊斷開";
+"Connect" = "連接";
+"Disconnect" = "斷開";
+"Connected" = "已連接";
+"Connecting" = "正在連接…";
+"Disconnecting" = "斷開…";
+"connection_error" = "連接錯誤";
+"feedback_page_title" = "回饋";
+"feedback_issue_category_title" = "問題類別";
+"feedback_description_title" = "描述";
+"feedback_note_text" = "您的描述、電子郵件地址（如果提供）和其他信息將發送給 nthLink 團隊。有關我們的數據收集政策，請參閱 nthLink 網站的隱私政策。";
+"feedback_submit" = "發送";
+"feedback_submit_failed_message" = "無法連接到 nthlink 服務器。";
+"feedback_submit_success_message" = "感謝您幫助我們改進！我們歡迎您的來信。";
+"feedback_init_failed_message" = "沒有服務器";
+"about_page_title" = "關於";
+"about_version" = "版本";
+"about_text" = "<p>我們是一群經驗豐富的軟體和資訊安全工程師，於 2016 年創立了 nthLink，為需要獲取受限資訊並表達觀點的人權律師提供支援。 從那時起，我們就向更廣泛的公眾提供了這項服務。 我們的開發團隊是網路安全技術和服務可靠性方面的專家。<br>我們的服務是免費的，並且由於我們的贊助商和合作夥伴，我們將繼續免費。 他們是：<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>我們的開發團隊在審查規避技術的複雜性和服務的可靠性方面均表現出色。 憑藉在這一專業領域的多年經驗，我們為目標地區的用戶提供簡單、安全、可靠的存取方式，以獲取未經審查的資訊。</p>";
+"menu_drawer_item_1" = "首頁";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "幫助";
+"menu_drawer_item_5" = "評價應用";
+"menu_web_item_1" = "複製鏈接";
+"menu_web_item_2" = "在瀏覽器中打開";
+"menu_web_item_3" = "分享鏈接";
+"menu_connection_item_1" = "登陸頁面";
+"word_loading" = "正在加載...";
+"word_coped_link" = "應對鏈接";
+"issue_categories_1" = "一般反饋";
+"issue_categories_2" = "無法連接";
+"issue_categories_3" = "連接速度很慢";
+"issue_categories_4" = "建議";
+"issue_categories_5" = "其他";
+
+
+"menu_drawer_item_privacy_policy" = "隱私政策";
+"feedbackDescTextFieldInitialText" = "(包括更多信息)";
+"feedbackErrorSelectType" = "請選擇錯誤類型";
+"feedbackErrorAddDescription" = "請輸入描述";
+"somethingWentWrong" = "出了點問題。請稍後再試。";
+"Notice" = "通知";
+"OK" = "確定";
+"feedbackDescEmailIDLabel" = "您的電子郵件地址（選填）";
+"feedbackSubtext" = "如果您提供了您的電子郵件地址，我們可能會與您聯繫，以獲取有關您請求的更多詳細信息。";
+"feedbackSelectIssueButton" = "選擇問題";
+"aboutVisitOurHomeText" = "訪問我們的首頁";
+"privacyPolicyAgreeButton" = "同意並繼續";
+"privacyPolicyLearnMoreButton" = "瞭解更多關於 nthLink";
+"homeReadLatestNews" = "閱讀最新新聞";

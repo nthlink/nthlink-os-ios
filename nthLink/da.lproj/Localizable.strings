@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Dit privatliv kommer først";
+"privacy_notice_text" = "nthLink indsamler IKKE personligt identificerbare oplysninger eller websteder / onlinetjenester, som du besøger. nthLink bruger din IP-adresse, enhedens standardsprog, cookies og grundlæggende enhedsoplysninger ( f.eks. operativsystemoplysninger) til at tilpasse de tjenester, du modtager, såsom at lokalisere de nærmeste servere, der bedst understøtter din enhed og vise den korrekte webside, når du opretter forbindelse til nthLink-serveren.";
+"privacy_notice_submit" = "Accepter og fortsæt";
+"connection_hint_connect" = "Tryk for at oprette forbindelse";
+"connection_hint_disconnect" = "Tryk for at afbryde forbindelsen";
+"Connect" = "Tilslut";
+"Disconnect" = "Frakobling";
+"Connected" = "Tilsluttet";
+"Connecting" = "Tilslutning…";
+"Disconnecting" = "Afbryder forbindelsen...";
+"connection_error" = "forbindelsesfejl";
+"feedback_page_title" = "Feedback";
+"feedback_issue_category_title" = "Problemkategori";
+"feedback_description_title" = "Beskrivelse";
+"feedback_note_text" = "Din beskrivelse, e-mailadresse (hvis angivet) og yderligere oplysninger vil blive sendt til nthLink-teamet. Se venligst nthLink-webstedets privatlivspolitik for vores dataindsamlingspolitik.";
+"feedback_submit" = "Send";
+"feedback_submit_failed_message" = "Det er ikke muligt at oprette forbindelse til nthlink-serveren.";
+"feedback_submit_success_message" = "Tak for at hjælpe os med at blive bedre! Vi elsker at høre fra dig.";
+"feedback_init_failed_message" = "Har ikke en server";
+"about_page_title" = "Vedrørende";
+"about_version" = "Version";
+"about_text" = "<p>Vi er en gruppe af erfarne software- og informationssikkerhedsingeniører, der startede nthLink i 2016 for at støtte menneskerettighedsadvokater, der havde brug for at indhente begrænset information og udtrykke deres perspektiver. Siden da har vi gjort tjenesten tilgængelig for den bredere offentlighed. Vores udviklingsteam er eksperter i både netværkssikkerhedsteknologi og servicepålidelighed.<br>Vores service er gratis og vil forblive gratis takket være vores sponsorer og partnere. De er:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Vores udviklingsteam udmærker sig både i det sofistikerede i teknologien til omgåelse af censur og pålideligheden af tjenesten. Med mange års erfaring inden for dette specialeområde giver vi brugerne i målrettede geografier enkel, sikker og pålidelig adgang til ellers censureret information.</p>";
+"menu_drawer_item_1" = "Hjem";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Hjælp";
+"menu_drawer_item_5" = "Bedøm app";
+"menu_web_item_1" = "Kopier link";
+"menu_web_item_2" = "Åbn i browser";
+"menu_web_item_3" = "Del link";
+"menu_connection_item_1" = "Landingsside";
+"word_loading" = "Indlæser";
+"word_coped_link" = "Klaret link";
+"issue_categories_1" = "Generel feedback";
+"issue_categories_2" = "Kan ikke oprette forbindelse";
+"issue_categories_3" = "Forbindelseshastigheden er langsom";
+"issue_categories_4" = "Forslag";
+"issue_categories_5" = "Andet";
+
+
+"menu_drawer_item_privacy_policy" = "Fortrolighedspolitik";
+"feedbackDescTextFieldInitialText" = "(inkludér mere information)";
+"feedbackErrorSelectType" = "Vælg fejltype";
+"feedbackErrorAddDescription" = "Indtast beskrivelse";
+"somethingWentWrong" = "Noget gik galt. Prøv venligst igen senere.";
+"Notice" = "Bemærk";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Din e-mail-adresse (valgfri)";
+"feedbackSubtext" = "Hvis du angiver din e-mail-adresse, kan vi kontakte dig for flere oplysninger om din anmodning.";
+"feedbackSelectIssueButton" = "Vælg problem";
+"aboutVisitOurHomeText" = "Besøg vores hjemmeside";
+"privacyPolicyAgreeButton" = "Acceptér og fortsæt";
+"privacyPolicyLearnMoreButton" = "Læs mere om nthLink";
+"homeReadLatestNews" = "Læs seneste nyheder";

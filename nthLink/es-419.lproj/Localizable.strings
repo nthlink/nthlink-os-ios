@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Tu privacidad es lo primero";
+"privacy_notice_text" = "nthLink NO recopila información de identificación personal o sitios web/servicios en línea que usted visita. nthLink utiliza su dirección IP, el idioma predeterminado del dispositivo, las cookies y la información básica del dispositivo (por ejemplo, información del sistema operativo) para personalizar los servicios que recibe, como ubicar los servidores más cercanos que pueden admitir mejor su dispositivo y mostrar la página web adecuada al conectarse a el servidor nthLink.";
+"privacy_notice_submit" = "Aceptar y continuar";
+"connection_hint_connect" = "Toque para conectar";
+"connection_hint_disconnect" = "Toque para desconectar";
+"Connect" = "Conectar";
+"Disconnect" = "Desconectar";
+"Connected" = "Conectado";
+"Connecting" = "Conectando…";
+"Disconnecting" = "Desconectando…";
+"connection_error" = "error_de_conexión";
+"feedback_page_title" = "Comentarios";
+"feedback_issue_category_title" = "Categoría de problema";
+"feedback_description_title" = "Descripción";
+"feedback_note_text" = "Su descripción, dirección de correo electrónico (si se proporciona) e información adicional se enviarán al equipo de nthLink. Consulte la Política de privacidad del sitio web de nthLink para conocer nuestra política de recopilación de datos.";
+"feedback_submit" = "Enviar";
+"feedback_submit_failed_message" = "No se puede conectar al servidor nthlink.";
+"feedback_submit_success_message" = "¡Gracias por ayudarnos a mejorar! Nos encanta saber de usted.";
+"feedback_init_failed_message" = "No tengo un servidor";
+"about_page_title" = "Acerca de";
+"about_version" = "Versión";
+"about_text" = "<p>Somos un grupo de ingenieros experimentados en software y seguridad de la información que fundamos nthLink en 2016 para apoyar a los abogados de derechos humanos que necesitaban obtener información restringida y expresar sus perspectivas. Desde entonces hemos puesto el servicio a disposición del público en general. Nuestro equipo de desarrollo es experto tanto en tecnología de seguridad de red como en confiabilidad del servicio.<br>Nuestro servicio es gratuito y seguirá siendo gratuito gracias a nuestros patrocinadores y socios. Ellos son:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Nuestro equipo de desarrollo sobresale tanto en la sofisticación de la tecnología de elusión de la censura como en la confiabilidad del servicio. Con años de experiencia en esta área de especialidad, brindamos a los usuarios en geografías específicas acceso simple, seguro y confiable a información que de otro modo estaría censurada.</p>";
+"menu_drawer_item_1" = "Inicio";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Ayudar";
+"menu_drawer_item_5" = "Calificar aplicación";
+"menu_web_item_1" = "Copiar link";
+"menu_web_item_2" = "Abierta en el navegador";
+"menu_web_item_3" = "Compartir enlace";
+"menu_connection_item_1" = "Página de destino";
+"word_loading" = "Cargando";
+"word_coped_link" = "Enlace copiado";
+"issue_categories_1" = "Retroalimentación general";
+"issue_categories_2" = "No se puede conectar";
+"issue_categories_3" = "La velocidad de conexión es lenta";
+"issue_categories_4" = "Sugerencias";
+"issue_categories_5" = "Otro";
+
+
+"menu_drawer_item_privacy_policy" = "Política de privacidad";
+"feedbackDescTextFieldInitialText" = "(incluya más información)";
+"feedbackErrorSelectType" = "Seleccione el tipo de error";
+"feedbackErrorAddDescription" = "Por favor, introduzca una descripción";
+"somethingWentWrong" = "Algo salió mal. Por favor, inténtalo de nuevo más tarde.";
+"Notice" = "Aviso";
+"OK" = "Aceptar";
+"feedbackDescEmailIDLabel" = "Su dirección de correo electrónico (opcional)";
+"feedbackSubtext" = "Si proporciona su dirección de correo electrónico, podemos ponernos en contacto con usted para obtener más detalles sobre su solicitud.";
+"feedbackSelectIssueButton" = "Seleccionar problema";
+"aboutVisitOurHomeText" = "Visite nuestra página de inicio";
+"privacyPolicyAgreeButton" = "Aceptar y continuar";
+"privacyPolicyLearnMoreButton" = "Obtén más información sobre nthLink";
+"homeReadLatestNews" = "Leer las últimas noticias";

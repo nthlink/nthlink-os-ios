@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "حریم خصوصی شما حرف اول را می زند";
+"privacy_notice_text" = "nthLink اطلاعات شناسایی شخصی یا وب سایت ها / خدمات آنلاینی را که بازدید می کنید جمع آوری نمی کند. nthLink از آدرس IP شما، زبان پیش‌فرض دستگاه، کوکی‌ها و اطلاعات اولیه دستگاه (به عنوان مثال اطلاعات سیستم عامل) برای سفارشی‌سازی سرویس‌هایی که دریافت می‌کنید، مانند مکان‌یابی نزدیک‌ترین سرورهایی که می‌توانند به بهترین شکل از دستگاه شما پشتیبانی کنند و نمایش صفحه وب مناسب هنگام اتصال به سرور nthLink استفاده می‌کند.";
+"privacy_notice_submit" = "بپذیرید و ادامه دهید";
+"connection_hint_connect" = "برای اتصال ضربه بزنید";
+"connection_hint_disconnect" = "برای قطع ارتباط ضربه بزنید";
+"Connect" = "اتصال";
+"Disconnect" = "قطع شدن";
+"Connected" = "متصل";
+"Connecting" = "برقراری ارتباط…";
+"Disconnecting" = "در حال قطع شدن…";
+"connection_error" = "خطای اتصال";
+"feedback_page_title" = "بازخورد";
+"feedback_issue_category_title" = "دسته بندی موضوع";
+"feedback_description_title" = "شرح";
+"feedback_note_text" = "توضیحات، آدرس ایمیل شما (در صورت ارائه)، و اطلاعات اضافی برای تیم nthLink ارسال خواهد شد. لطفاً برای سیاست جمع آوری داده های ما به خط مشی رازداری وب سایت nthLink مراجعه کنید.";
+"feedback_submit" = "ارسال";
+"feedback_submit_failed_message" = "نمی توان به سرور nthlink متصل شد.";
+"feedback_submit_success_message" = "از اینکه به ما کمک کردید تا پیشرفت کنیم متشکریم! ما دوست داریم از شما بشنویم.";
+"feedback_init_failed_message" = "سرور ندارید";
+"about_page_title" = "در باره";
+"about_version" = "نسخه";
+"about_text" = "<p>ما گروهی از مهندسین نرم افزار و امنیت اطلاعات با تجربه هستیم که nthLink را در سال 2016 برای حمایت از وکلای حقوق بشری که نیاز به کسب اطلاعات محدود و بیان دیدگاه های خود داشتند، راه اندازی کردیم. از آن زمان ما این سرویس را در دسترس عموم قرار داده ایم. تیم توسعه ما در زمینه فناوری امنیت شبکه و قابلیت اطمینان خدمات متخصص هستند.<br>خدمات ما رایگان است و به لطف حامیان مالی و شرکای ما رایگان خواهد بود. آن ها هستند:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>نظر قابلیت اطمینان سرویس برتر است. ما با سالها تجربه در این زمینه تخصصی، دسترسی ساده، ایمن و قابل اعتماد به اطلاعات سانسور شده را برای کاربران در مناطق جغرافیایی هدف فراهم می کنیم.</p>";
+"menu_drawer_item_1" = "صفحه اصلی";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "کمک";
+"menu_drawer_item_5" = "امتیاز دادن به برنامه";
+"menu_web_item_1" = "لینک را کپی کنید";
+"menu_web_item_2" = "در مرور گر باز کنید";
+"menu_web_item_3" = "لینک را به اشتراک بگذارید";
+"menu_connection_item_1" = "صفحه فرود";
+"word_loading" = "بارگذاری";
+"word_coped_link" = "لینک کپی شده";
+"issue_categories_1" = "بازخورد عمومی";
+"issue_categories_2" = "نمی تواند وصل شود";
+"issue_categories_3" = "سرعت اتصال پایین است";
+"issue_categories_4" = "پیشنهادات";
+"issue_categories_5" = "سایر";
+
+
+"menu_drawer_item_privacy_policy" = "سیاست حفظ حریم خصوصی";
+"feedbackDescTextFieldInitialText" = "(بیشتر اطلاعات را درج کنید)";
+"feedbackErrorSelectType" = "لطفاً نوع خطا را انتخاب کنید";
+"feedbackErrorAddDescription" = "لطفاً توضیحات را وارد کنید";
+"somethingWentWrong" = "مشکلی پیش آمده است. لطفاً بعداً دوباره امتحان کنید.";
+"Notice" = "اطلاع";
+"OK" = "تایید";
+"feedbackDescEmailIDLabel" = "آدرس ایمیل شما (اختیاری)";
+"feedbackSubtext" = "در صورت ارائه آدرس ایمیل خود، ممکن است با شما برای دریافت اطلاعات بیشتر درباره درخواست شما تماس بگیریم.";
+"feedbackSelectIssueButton" = "انتخاب موضوع";
+"aboutVisitOurHomeText" = "بازدید از صفحه اصلی ما";
+"privacyPolicyAgreeButton" = "موافقم و ادامه می‌دهم";
+"privacyPolicyLearnMoreButton" = "درباره nthLink بیشتر بدانید";
+"homeReadLatestNews" = "خواندن آخرین اخبار";

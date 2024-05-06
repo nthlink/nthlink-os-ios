@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Vaše soukromí je na prvním místě";
+"privacy_notice_text" = "nthLink NESHROMAŽĎUJE osobně identifikovatelné informace ani webové stránky/online služby, které navštívíte. nthLink používá vaši IP adresu, výchozí jazyk zařízení, soubory cookie a základní informace o zařízení ( např. informace o operačním systému) k přizpůsobení služeb, které dostáváte, jako je vyhledání nejbližších serverů, které mohou nejlépe podporovat vaše zařízení, a zobrazení správné webové stránky po připojení k server nthLink.";
+"privacy_notice_submit" = "Přijmout a pokračovat";
+"connection_hint_connect" = "Klepněte na Pro připojení";
+"connection_hint_disconnect" = "Klepněte na Pro odpojení";
+"Connect" = "Připojit";
+"Disconnect" = "Odpojit";
+"Connected" = "Připojeno";
+"Connecting" = "Spojovací…";
+"Disconnecting" = "Odpojování…";
+"connection_error" = "chyba připojení";
+"feedback_page_title" = "Zpětná vazba";
+"feedback_issue_category_title" = "Kategorie problému";
+"feedback_description_title" = "Popis";
+"feedback_note_text" = "Váš popis, e-mailová adresa (pokud je uvedena) a další informace budou zaslány týmu nthLink. Naše zásady shromažďování údajů naleznete v zásadách ochrany osobních údajů webu nthLink.";
+"feedback_submit" = "Poslat";
+"feedback_submit_failed_message" = "Nelze se připojit k serveru nthlink.";
+"feedback_submit_success_message" = "Děkujeme, že nám pomáháte zlepšovat se! Rádi vás slyšíme.";
+"feedback_init_failed_message" = "Nemáte server";
+"about_page_title" = "O";
+"about_version" = "Verze";
+"about_text" = "<p>Jsme skupina zkušených softwarových a informačních bezpečnostních inženýrů, kteří spustili nthLink v roce 2016 na podporu právníků v oblasti lidských práv, kteří potřebovali získat omezené informace a vyjádřit své názory. Od té doby jsme službu zpřístupnili široké veřejnosti. Náš vývojový tým je odborníky jak na technologii zabezpečení sítě, tak na spolehlivost služeb.<br>Naše služba je bezplatná a zůstane bezplatná díky našim sponzorům a partnerům. Oni jsou:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Náš vývojový tým vyniká jak propracovaností technologie obcházení cenzury, tak spolehlivostí služeb. Díky dlouholetým zkušenostem v této speciální oblasti poskytujeme uživatelům v cílených geografických oblastech jednoduchý, bezpečný a spolehlivý přístup k jinak cenzurovaným informacím.</p>.";
+"menu_drawer_item_1" = "Domov";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Pomoc";
+"menu_drawer_item_5" = "Ohodnoťte aplikaci";
+"menu_web_item_1" = "Kopírovat odkaz";
+"menu_web_item_2" = "Otevřít v prohlížeči";
+"menu_web_item_3" = "Sdílet odkaz";
+"menu_connection_item_1" = "Vstupní stránka";
+"word_loading" = "načítání";
+"word_coped_link" = "Zvládnutý odkaz";
+"issue_categories_1" = "Obecná zpětná vazba";
+"issue_categories_2" = "Nelze spojit";
+"issue_categories_3" = "Rychlost připojení je pomalá";
+"issue_categories_4" = "Návrhy";
+"issue_categories_5" = "Jiný";
+
+
+"menu_drawer_item_privacy_policy" = "Zásady ochrany osobních údajů";
+"feedbackDescTextFieldInitialText" = "(zahrnout více informací)";
+"feedbackErrorSelectType" = "Vyberte typ chyby";
+"feedbackErrorAddDescription" = "Zadejte popis";
+"somethingWentWrong" = "Něco se pokazilo. Zkuste to prosím později.";
+"Notice" = "Oznámení";
+"OK" = "OK";
+"feedbackDescEmailIDLabel" = "Vaše e-mailová adresa (volitelné)";
+"feedbackSubtext" = "Pokud poskytnete svou e-mailovou adresu, můžeme vás kontaktovat pro další podrobnosti o vašem požadavku.";
+"feedbackSelectIssueButton" = "Vyberte problém";
+"aboutVisitOurHomeText" = "Navštivte naše domovské stránky";
+"privacyPolicyAgreeButton" = "Souhlasím a pokračuji";
+"privacyPolicyLearnMoreButton" = "Více informací o nthLink";
+"homeReadLatestNews" = "Přečtěte si nejnovější zprávy";

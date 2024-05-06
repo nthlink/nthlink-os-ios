@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Ваша приватност је на првом месту";
+"privacy_notice_text" = "nthLink НЕ прикупља личне информације или веб локације / онлајн услуге које посећујете. nthLink користи вашу IP адресу, подразумевани језик уређаја, колачиће и основне информације о уређају ( нпр. информације о оперативном систему) да би прилагодио услуге које добијате, као што је лоцирање најближих сервера који могу најбоље да подрже ваш уређај и приказивање одговарајуће веб странице након повезивања на nthLink сервер.";
+"privacy_notice_submit" = "Прихватите и наставите";
+"connection_hint_connect" = "Додирните за повезивање";
+"connection_hint_disconnect" = "Додирните да бисте прекинули везу";
+"Connect" = "Повежите се";
+"Disconnect" = "Прекини везу";
+"Connected" = "Повезано";
+"Connecting" = "Повезивање…";
+"Disconnecting" = "Прекидање везе…";
+"connection_error" = "грешка_везе";
+"feedback_page_title" = "Повратна информација";
+"feedback_issue_category_title" = "Категорија издања";
+"feedback_description_title" = "Опис";
+"feedback_note_text" = "Ваш опис, адреса е-поште (ако је наведена) и додатне информације биће послате тиму nthLink. Молимо погледајте Политику приватности веб-сајта nthLink за нашу политику прикупљања података.";
+"feedback_submit" = "Пошаљи";
+"feedback_submit_failed_message" = "Не могу да се повежем на nthLink сервер.";
+"feedback_submit_success_message" = "Хвала што нам помажете да побољшамо! Волимо да чујемо од вас.";
+"feedback_init_failed_message" = "Немате сервер";
+"about_page_title" = "О";
+"about_version" = "Верзија";
+"about_text" = "<p>Ми смо група искусних инжењера за софтвер и безбедност информација који су покренули нтхЛинк 2016. године како би подржали адвокате за људска права који су морали да добију ограничене информације и да изразе своје ставове. Од тада смо услугу учинили доступном широј јавности. Наш развојни тим су стручњаци и за технологију мрежне безбедности и за поузданост услуга.<br>Наша услуга је бесплатна и остаће бесплатна захваљујући нашим спонзорима и партнерима. Су:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Наш развојни тим се истиче како у софистицираности технологије заобилажења цензуре, тако иу поузданости услуге. Са дугогодишњим искуством у овој специјалној области, корисницима у циљаним географским подручјима пружамо једноставан, безбедан и поуздан приступ иначе цензурисаним информацијама.</p>";
+"menu_drawer_item_1" = "Насловна";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Помоћ";
+"menu_drawer_item_5" = "Рангирај апликацију";
+"menu_web_item_1" = "Копирај везу";
+"menu_web_item_2" = "Отвори у претраживачу";
+"menu_web_item_3" = "Подели везу";
+"menu_connection_item_1" = "Почетне странице";
+"word_loading" = "Учитавање...";
+"word_coped_link" = "Покривен линк";
+"issue_categories_1" = "Опште повратне информације";
+"issue_categories_2" = "Не може да се повеже";
+"issue_categories_3" = "Брзина везе је мала";
+"issue_categories_4" = "Предлози";
+"issue_categories_5" = "Остало";
+
+
+"menu_drawer_item_privacy_policy" = "Политика приватности";
+"feedbackDescTextFieldInitialText" = "(укључите више информација)";
+"feedbackErrorSelectType" = "Изаберите тип грешке";
+"feedbackErrorAddDescription" = "Унесите опис";
+"somethingWentWrong" = "Дошло је до грешке. Молимо покушајте поново касније.";
+"Notice" = "Обавештење";
+"OK" = "У реду";
+"feedbackDescEmailIDLabel" = "Ваша адреса е-поште (опционо)";
+"feedbackSubtext" = "Ако наведете своју адресу е-поште, можемо вас контактирати за више информација о вашем захтеву.";
+"feedbackSelectIssueButton" = "Изаберите проблем";
+"aboutVisitOurHomeText" = "Посетите нашу почетну страну";
+"privacyPolicyAgreeButton" = "Сагласан сам и настављам";
+"privacyPolicyLearnMoreButton" = "Сазнајте више о nthLink";
+"homeReadLatestNews" = "Прочитајте најновије вести";

@@ -1,0 +1,85 @@
+/*
+  Localizable.string.strings
+  TunnelRaySampleApp
+
+  Created by Charles Chiang on 2021/12/3.
+  
+*/
+
+"Accept and continue" = "Accept and continue";
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Home" = "Home";
+"Feedback" = "Feedback";
+"About" = "About";
+"Help" = "Help";
+"Rate App" = "Rate App";
+"General Feedback" = "General Feedback";
+"Cannot connect" = "Cannot connect";
+"Connection speed is slow" = "Connection speed is slow";
+"Suggestions" = "Suggestions";
+"Other" = "Other";
+"Send" = "Send";
+"Tap To Disconnect" = "Tap To Disconnect";
+"Tap To Connect" = "Tap To Connect";
+"Connecting" = "Connecting";
+"Connected" = "Connected";
+"Issue Category" = "Issue Category";
+"Description" = "Description";
+"Connection error" = "Connection error";
+"Loading" = "Loading";
+
+"privacy_notice_title" = "Jūsų privatumas yra svarbiausias";
+"privacy_notice_text" = "„nthLink“ NERENKA asmenį identifikuojančios informacijos ar svetainių / internetinių paslaugų, kuriose lankotės. „nthLink“ naudoja jūsų IP adresą, numatytąją įrenginio kalbą, slapukus ir pagrindinę įrenginio informaciją (pvz., operacinės sistemos informaciją), kad pritaikytų jūsų gaunamas paslaugas, t.y. nustatytų artimiausius serverius, kurie gali geriausiai palaikyti jūsų įrenginį, ir rodytų tinkamą tinklalapį prisijungus prie „nthLink“ serverio.";
+"privacy_notice_submit" = "Priimti ir tęsti";
+"connection_hint_connect" = "Bakstelėkite norėdami prisijungti";
+"connection_hint_disconnect" = "Bakstelėkite norėdami atsijungti";
+"Connect" = "Prisijungti";
+"Disconnect" = "Atsijungti";
+"Connected" = "Prisijungta";
+"Connecting" = "Jungiamasi…";
+"Disconnecting" = "Atsijungiama…";
+"connection_error" = "ryšio klaida";
+"feedback_page_title" = "Atsiliepimas";
+"feedback_issue_category_title" = "Problemos kategorija";
+"feedback_description_title" = "Aprašymas";
+"feedback_note_text" = "Jūsų aprašymas, el. pašto adresas (jei pateiktas) ir papildoma informacija bus išsiųsta „nthLink“ komandai. Norėdami sužinoti mūsų duomenų rinkimo politiką, žr. „nthLink“ svetainės privatumo politiką.";
+"feedback_submit" = "Siųsti";
+"feedback_submit_failed_message" = "Nepavyksta prisijungti prie „nthLink“ serverio.";
+"feedback_submit_success_message" = "Dėkojame, kad padedate mums tobulėti! Lauksime jūsų nuomonės.";
+"feedback_init_failed_message" = "Neturi serverio";
+"about_page_title" = "Apie";
+"about_version" = "%s versija";
+"about_text" = "<p>Esame patyrusių programinės įrangos ir informacijos saugos inžinierių grupė, kuri 2016 m. pradėjo „nthLink“, siekdama paremti žmogaus teisių teisininkus, kuriems reikėjo gauti riboto naudojimo informaciją ir išreikšti savo požiūrį. Nuo tada paslauga tapo prieinama platesnei visuomenei. Mūsų kūrėjų komanda yra tinklo saugumo technologijų ir paslaugų patikimumo ekspertai.<br>Mūsų paslauga yra nemokama ir išliks nemokama mūsų rėmėjų ir partnerių dėka. Jie yra:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Mūsų kūrėjų komanda išsiskiria tiek cenzūros apėjimo technologija, tiek paslaugos patikimumu. Turėdami ilgametę patirtį šioje specialioje srityje, vartotojams tikslinėse geografinėse vietovėse suteikiame paprastą, saugią ir patikimą prieigą prie kitaip cenzūruojamos informacijos.</p>";
+"menu_drawer_item_1" = "Pagrindinis";
+"menu_drawer_item_2" = "@string/feedback_page_title";
+"menu_drawer_item_3" = "@string/about_page_title";
+"menu_drawer_item_4" = "Pagalba";
+"menu_drawer_item_5" = "Įvertinkite programėlę";
+"menu_web_item_1" = "Nukopijuoti nuorodą";
+"menu_web_item_2" = "Atidaryti naršyklėje";
+"menu_web_item_3" = "Dalintis nuoroda";
+"menu_connection_item_1" = "Nukreipimo puslapis";
+"word_loading" = "Įkeliama";
+"word_coped_link" = "Nukopijuota nuoroda";
+"issue_categories_1" = "Bendras atsiliepimas";
+"issue_categories_2" = "Negalima prisijungti";
+"issue_categories_3" = "Ryšio greitis lėtas";
+"issue_categories_4" = "Pasiūlymai";
+"issue_categories_5" = "Kita";
+
+
+"menu_drawer_item_privacy_policy" = "Privatumo politika";
+"feedbackDescTextFieldInitialText" = "(įtraukite daugiau informacijos)";
+"feedbackErrorSelectType" = "Prašome pasirinkti klaidos tipą";
+"feedbackErrorAddDescription" = "Prašome įvesti aprašymą";
+"somethingWentWrong" = "Kažkas nutiko ne taip. Bandykite vėliau.";
+"Notice" = "Pranešimas";
+"OK" = "Gerai";
+"feedbackDescEmailIDLabel" = "Jūsų el. pašto adresas (neprivaloma)";
+"feedbackSubtext" = "Pateikdami savo el. pašto adresą, galime susisiekti su jumis ir gauti daugiau informacijos apie jūsų užklausą.";
+"feedbackSelectIssueButton" = "Pasirinkite problemą";
+"aboutVisitOurHomeText" = "Apsilankykite mūsų pagrindiniame puslapyje";
+"privacyPolicyAgreeButton" = "Sutinku ir tęsti";
+"privacyPolicyLearnMoreButton" = "Sužinokite daugiau apie nthLink";
+"homeReadLatestNews" = "Skaityti naujausias naujienas";
