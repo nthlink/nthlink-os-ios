@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KGk-i7-Jjw" customClass="NewsTopHeadingTableViewCell" customModule="nthLink" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="506" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="506" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2C-os-1UJ">
+                        <rect key="frame" x="0.0" y="0.0" width="506" height="250"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIg-YF-ylF">
+                                <rect key="frame" x="20" y="6" width="466" height="238"/>
+                                <subviews>
+                                    <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82L-8Z-RdH">
+                                        <rect key="frame" x="0.0" y="0.0" width="466" height="238"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <wkWebViewConfiguration key="configuration">
+                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                            <wkPreferences key="preferences"/>
+                                        </wkWebViewConfiguration>
+                                    </wkWebView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ML-wq-bu7">
+                                        <rect key="frame" x="0.0" y="0.0" width="466" height="238"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPa-rN-UBR">
+                                        <rect key="frame" x="0.0" y="0.0" width="466" height="238"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <connections>
+                                            <action selector="newsButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tvV-cb-2R6"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="more" translatesAutoresizingMaskIntoConstraints="NO" id="WKd-1t-Olg">
+                                        <rect key="frame" x="421" y="10" width="35" height="35"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="cHA-9g-RdN"/>
+                                            <constraint firstAttribute="height" constant="35" id="kB6-rz-BZ6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="82L-8Z-RdH" secondAttribute="trailing" id="0T6-o4-tEg"/>
+                                    <constraint firstItem="UPa-rN-UBR" firstAttribute="top" secondItem="kIg-YF-ylF" secondAttribute="top" id="1x2-Jo-XOM"/>
+                                    <constraint firstItem="82L-8Z-RdH" firstAttribute="top" secondItem="kIg-YF-ylF" secondAttribute="top" id="6aU-fo-CfL"/>
+                                    <constraint firstAttribute="bottom" secondItem="UPa-rN-UBR" secondAttribute="bottom" id="DRb-t5-x5E"/>
+                                    <constraint firstItem="UPa-rN-UBR" firstAttribute="leading" secondItem="kIg-YF-ylF" secondAttribute="leading" id="HDb-bN-kha"/>
+                                    <constraint firstItem="WKd-1t-Olg" firstAttribute="top" secondItem="kIg-YF-ylF" secondAttribute="top" constant="10" id="Pyl-u0-h3Y"/>
+                                    <constraint firstItem="9ML-wq-bu7" firstAttribute="height" secondItem="82L-8Z-RdH" secondAttribute="height" id="UOR-ZZ-NTV"/>
+                                    <constraint firstItem="9ML-wq-bu7" firstAttribute="width" secondItem="82L-8Z-RdH" secondAttribute="width" id="V2s-iR-UTH"/>
+                                    <constraint firstItem="9ML-wq-bu7" firstAttribute="centerY" secondItem="82L-8Z-RdH" secondAttribute="centerY" id="XBy-eg-DTH"/>
+                                    <constraint firstItem="82L-8Z-RdH" firstAttribute="leading" secondItem="kIg-YF-ylF" secondAttribute="leading" id="hbQ-DU-Gw0"/>
+                                    <constraint firstItem="9ML-wq-bu7" firstAttribute="centerX" secondItem="82L-8Z-RdH" secondAttribute="centerX" id="jWV-OG-89i"/>
+                                    <constraint firstAttribute="trailing" secondItem="WKd-1t-Olg" secondAttribute="trailing" constant="10" id="kZ4-qg-4wt"/>
+                                    <constraint firstAttribute="bottom" secondItem="82L-8Z-RdH" secondAttribute="bottom" id="n0W-Ay-7ua"/>
+                                    <constraint firstAttribute="trailing" secondItem="UPa-rN-UBR" secondAttribute="trailing" id="qTH-bO-3m8"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="setCornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.68235294117647061" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kIg-YF-ylF" firstAttribute="top" secondItem="U2C-os-1UJ" secondAttribute="top" constant="6" id="4vc-0M-eXe"/>
+                            <constraint firstItem="kIg-YF-ylF" firstAttribute="centerY" secondItem="U2C-os-1UJ" secondAttribute="centerY" id="I09-jm-MKD"/>
+                            <constraint firstItem="kIg-YF-ylF" firstAttribute="leading" secondItem="U2C-os-1UJ" secondAttribute="leading" constant="20" id="M24-WM-h0a"/>
+                            <constraint firstAttribute="trailing" secondItem="kIg-YF-ylF" secondAttribute="trailing" constant="20" id="hjL-A9-6WN"/>
+                            <constraint firstAttribute="bottom" secondItem="kIg-YF-ylF" secondAttribute="bottom" constant="6" id="tNI-31-MGf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="U2C-os-1UJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PKV-H0-2C9"/>
+                    <constraint firstAttribute="bottom" secondItem="U2C-os-1UJ" secondAttribute="bottom" id="atS-us-b1D"/>
+                    <constraint firstAttribute="trailing" secondItem="U2C-os-1UJ" secondAttribute="trailing" id="d55-WI-kVR"/>
+                    <constraint firstItem="U2C-os-1UJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pmO-B2-y1r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivMore" destination="WKd-1t-Olg" id="WS3-OX-t4J"/>
+                <outlet property="snapshotImageView" destination="9ML-wq-bu7" id="Xq9-Kq-5XW"/>
+                <outlet property="webView" destination="82L-8Z-RdH" id="BCR-Lx-XbX"/>
+            </connections>
+            <point key="canvasLocation" x="-50.381679389312978" y="17.605633802816904"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more" width="47" height="47"/>
+    </resources>
+</document>

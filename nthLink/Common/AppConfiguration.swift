@@ -17,16 +17,25 @@ class AppConfigurations {
     }
     
     static func getHelpURL() -> String{
-        return "https://s3.us-west-1.amazonaws.com/dwo-jar-kmf-883/help.html"
+        return "https://www.nthlink.com/#faq"
     }
     
     static func getAppStoreURL() -> String{
-        let appID = 1467297604
+        let appID = ""
         return "itms-apps://itunes.apple.com/app/id\(appID)?mt=8&action=write-review"
+    }
+    
+    static func getAppStoreURLForUpdate() -> String{
+        let appID = ""
+        return "itms-apps://itunes.apple.com/app/id\(appID)?mt=8"
     }
 
     static func getPrivacyPolicyURL() -> String{
         return "https://www.nthlink.com/policies/"
+    }
+    
+    static func getTelegramID() -> String {
+        return "@nthLinkVPN"
     }
   
     

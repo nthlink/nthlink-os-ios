@@ -51,7 +51,7 @@
 "about_page_title" = "Apie";
 "about_version" = "%s versija";
 "about_text" = "<p>Esame patyrusių programinės įrangos ir informacijos saugos inžinierių grupė, kuri 2016 m. pradėjo „nthLink“, siekdama paremti žmogaus teisių teisininkus, kuriems reikėjo gauti riboto naudojimo informaciją ir išreikšti savo požiūrį. Nuo tada paslauga tapo prieinama platesnei visuomenei. Mūsų kūrėjų komanda yra tinklo saugumo technologijų ir paslaugų patikimumo ekspertai.<br>Mūsų paslauga yra nemokama ir išliks nemokama mūsų rėmėjų ir partnerių dėka. Jie yra:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Mūsų kūrėjų komanda išsiskiria tiek cenzūros apėjimo technologija, tiek paslaugos patikimumu. Turėdami ilgametę patirtį šioje specialioje srityje, vartotojams tikslinėse geografinėse vietovėse suteikiame paprastą, saugią ir patikimą prieigą prie kitaip cenzūruojamos informacijos.</p>";
-"menu_drawer_item_1" = "Pagrindinis";
+"menu_drawer_item_1" = "Prisijungti";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Pagalba";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Sutinku ir tęsti";
 "privacyPolicyLearnMoreButton" = "Sužinokite daugiau apie nthLink";
 "homeReadLatestNews" = "Skaityti naujausias naujienas";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Nukopijuota";
+"telegramIdCopiedAlert" = "Prašome įklijuoti ID į Telegram.";
+"followUsText" = "Sekite mus";
+"visitButtonText" = "Aplankyti";
+"diagnosticPageTitle" = "Diagnostika";
+"diagnosticsStartButton" = "Pradėti diagnostiką";
+"diagnosticsDescription" = "Svetainėje nthLink mes kartais prašome jūsų pagalbos tobulinant mūsų paslaugas, pateikiant diagnostinius duomenis.
+
+Paspaudę mygtuką, pradėsite diagnostikos procesą, kuris surenka informaciją ir perduoda ją į mūsų serverius. Būkite ramūs, visa surinkta informacija yra visiškai anoniminė.";
+"diagnosticsSuceessMessage" = "Ačiū, kad padedate mums tobulėti! Mes džiaugiamės girdėdami jūsų nuomonę.";
+"diagnosticsInternetError" = "Nestabilus tinklas. Patikrinkite savo interneto ryšį.";
+"diagnosticsStartDisconnectWarning" = "Pradėjus diagnostiką dabartinis ryšys bus nutrauktas. Ar tikrai norite tęsti?";
+"Cancel" = "Atšaukti";
+"loading" = "įkeliama...";
+"UpdateAppMenu" = "Atnaujinti programą";
+"updateScreenLabel" = "Atnaujinkite savo programą į naujausią versiją";
+"updateScreenSubtext" = "Nauja nthLink programos versija pasiekiama App Store. Atnaujinkite programą, kad galėtumėte naudoti visas mūsų nuostabias funkcijas.";
+"updateScreenUpdateNowButtonText" = "Atnaujinti dabar";
+
+"connectionQualityLabel" = "Ryšio kokybė";

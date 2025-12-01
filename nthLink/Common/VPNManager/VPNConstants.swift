@@ -15,9 +15,12 @@ loglevel = debug
 always-real-ip = *
 routing-domain-resolve = false
 tun-fd = {{TUN-FD}}
+[Env]
+HTTP_USER_AGENT = nthlink
 [Proxy]
 
 """
+
 var vpnManager = NEVPNManager.shared()
 
 let appGroup = "group.com.nthlink.ios.client"

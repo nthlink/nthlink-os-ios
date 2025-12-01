@@ -51,7 +51,7 @@
 "about_page_title" = "Acerca de";
 "about_version" = "Versión";
 "about_text" = "<p>Somos un grupo de ingenieros experimentados en software y seguridad de la información que fundamos nthLink en 2016 para apoyar a los abogados de derechos humanos que necesitaban obtener información restringida y expresar sus perspectivas. Desde entonces hemos puesto el servicio a disposición del público en general. Nuestro equipo de desarrollo es experto tanto en tecnología de seguridad de red como en confiabilidad del servicio.<br>Nuestro servicio es gratuito y seguirá siendo gratuito gracias a nuestros patrocinadores y socios. Ellos son:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Nuestro equipo de desarrollo sobresale tanto en la sofisticación de la tecnología de elusión de la censura como en la confiabilidad del servicio. Con años de experiencia en esta área de especialidad, brindamos a los usuarios en geografías específicas acceso simple, seguro y confiable a información que de otro modo estaría censurada.</p>";
-"menu_drawer_item_1" = "Inicio";
+"menu_drawer_item_1" = "Conectar";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Ayudar";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Aceptar y continuar";
 "privacyPolicyLearnMoreButton" = "Obtén más información sobre nthLink";
 "homeReadLatestNews" = "Leer las últimas noticias";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Copiado";
+"telegramIdCopiedAlert" = "Por favor, pegue la ID en Telegram.";
+"followUsText" = "Síguenos";
+"visitButtonText" = "Visitar";
+"diagnosticPageTitle" = "Diagnóstico";
+"diagnosticsStartButton" = "Iniciar diagnóstico";
+"diagnosticsDescription" = "En nthLink, ocasionalmente solicitamos su ayuda para mejorar nuestro servicio proporcionando datos de diagnóstico.
+
+Al hacer clic en el botón, se inicia el proceso de diagnóstico, recopilando información y enviándola a nuestros servidores. Tenga la seguridad de que toda la información recopilada es completamente anónima.";
+"diagnosticsSuceessMessage" = "¡Gracias por ayudarnos a mejorar! Nos encanta escuchar sus opiniones.";
+"diagnosticsInternetError" = "Red inestable. Por favor, revise su conexión a Internet.";
+"diagnosticsStartDisconnectWarning" = "Iniciar el diagnóstico desconectará la conexión actual. ¿Está seguro de que desea continuar?";
+"Cancel" = "Cancelar";
+"loading" = "Cargando...";
+"UpdateAppMenu" = "Actualizar aplicación";
+"updateScreenLabel" = "Actualiza tu aplicación a la última versión";
+"updateScreenSubtext" = "Una nueva versión de la aplicación nthLink está disponible en la App Store. Por favor, actualiza tu aplicación para usar todas nuestras increíbles funciones.";
+"updateScreenUpdateNowButtonText" = "Actualizar ahora";
+
+"connectionQualityLabel" = "Calidad de conexión";

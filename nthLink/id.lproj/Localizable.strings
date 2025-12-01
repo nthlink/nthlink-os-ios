@@ -51,7 +51,7 @@
 "about_page_title" = "Tentang";
 "about_version" = "Versi";
 "about_text" = "<p>Kami adalah sekelompok insinyur perangkat lunak dan keamanan informasi berpengalaman yang memulai nthLink pada tahun 2016 untuk mendukung pengacara hak asasi manusia yang perlu memperoleh informasi terbatas dan untuk mengekspresikan perspektif mereka. Sejak itu kami telah membuat layanan ini tersedia untuk masyarakat luas. Tim pengembangan kami ahli dalam teknologi keamanan jaringan dan keandalan layanan.<br>Layanan kami gratis dan akan tetap gratis berkat sponsor dan mitra kami. Mereka:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Tim pengembangan kami unggul dalam kecanggihan teknologi pengelakan sensor dan keandalan layanan. Dengan pengalaman bertahun-tahun di bidang khusus ini, kami menyediakan akses yang sederhana, aman, dan andal kepada pengguna di wilayah yang ditargetkan ke informasi yang disensor.</p>";
-"menu_drawer_item_1" = "Rumah";
+"menu_drawer_item_1" = "Hubungkan";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Bantuan";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Setuju dan lanjutkan";
 "privacyPolicyLearnMoreButton" = "Pelajari lebih lanjut tentang nthLink";
 "homeReadLatestNews" = "Baca Berita Terbaru";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Disalin";
+"telegramIdCopiedAlert" = "Silakan tempel ID di Telegram.";
+"followUsText" = "Ikuti kami";
+"visitButtonText" = "Kunjungi";
+"diagnosticPageTitle" = "Diagnostik";
+"diagnosticsStartButton" = "Mulai Diagnostik";
+"diagnosticsDescription" = "Di nthLink, kami sesekali meminta bantuan Anda untuk meningkatkan layanan kami dengan memberikan data diagnostik.
+
+Dengan menekan tombol ini, proses diagnostik akan dimulai, mengumpulkan informasi dan mengirimkannya ke server kami. Harap tenang, semua informasi yang dikumpulkan sepenuhnya anonim.";
+"diagnosticsSuceessMessage" = "Terima kasih telah membantu kami menjadi lebih baik! Kami senang mendengar dari Anda.";
+"diagnosticsInternetError" = "Jaringan tidak stabil. Harap periksa koneksi internet Anda.";
+"diagnosticsStartDisconnectWarning" = "Memulai diagnostik akan memutuskan koneksi saat ini. Apakah Anda yakin ingin melanjutkan?";
+"Cancel" = "Batal";
+"loading" = "Memuat...";
+"UpdateAppMenu" = "Perbarui Aplikasi";
+"updateScreenLabel" = "Perbarui aplikasi Anda ke versi terbaru";
+"updateScreenSubtext" = "Versi terbaru dari aplikasi nthLink tersedia di App Store. Silakan perbarui aplikasi Anda untuk menggunakan semua fitur hebat kami.";
+"updateScreenUpdateNowButtonText" = "Perbarui Sekarang";
+
+"connectionQualityLabel" = "Kualitas Koneksi";

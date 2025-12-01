@@ -51,7 +51,7 @@
 "about_page_title" = "ስለ";
 "about_version" = "ስሪት";
 "about_text" = "<p>እኛ በ 2016 የተገደበ መረጃ ለማግኘት የሚያስፈልጋቸውን የሰብአዊ መብት ጠበቆችን ለመደገፍ እና አመለካከታቸውን ለመግለጽ nthLink የጀመርን የሶፍትዌር እና የመረጃ ደህንነት መሐንዲሶች ቡድን ነን። ከዚያን ጊዜ ጀምሮ አገልግሎቱን ለሰፊው ህዝብ ተደራሽ አድርገነዋል። የእኛ የእድገት ቡድን በሁለቱም የአውታረ መረብ ደህንነት ቴክኖሎጂ እና የአገልግሎት አስተማማኝነት ባለሞያዎች ናቸው።<br>አገልግሎታችን ነፃ ነው እና ለስፖንሰሮቻችን እና አጋሮቻችን ምስጋና ይግባው ይቀጥላል። ናቸው:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>የእኛ የእድገት ቡድን በሳንሱር ችግር አፈታት ቴክኖሎጂ ውስብስብነት እና በአገልግሎቱ አስተማማኝነት የላቀ ነው። የዓመታት ልምድ ባገኘንበት በዚህ መስክ ለታላሚ አካባቢዎች ቀላል፣ ደህንነቱ የተጠበቀ እና አስተማማኝ የመረጃ መዳረሻን ለተጠቃሚዎች እናቀርባለን።</p>";
-"menu_drawer_item_1" = "ዋና ገጽ";
+"menu_drawer_item_1" = "እንዲገናኙ";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "እገዛ";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "ውላቸውን ለማስቀመጥ ለመነሳት";
 "privacyPolicyLearnMoreButton" = "nthLink መረጃ በመስጠት";
 "homeReadLatestNews" = "የቅርብ ምንዞችን እንዳንክተን";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "ተቀድሏል";
+"telegramIdCopiedAlert" = "እባኮትን መታወቂያውን በTelegram ላይ ያስገቡ።";
+"followUsText" = "ተከታተሉን";
+"visitButtonText" = "ጎብኙ";
+"diagnosticPageTitle" = "ዲያግኖስቲክ";
+"diagnosticsStartButton" = "ዲያግኖስቲክ ጀምር";
+"diagnosticsDescription" = "በnthLink እኛ አንዳንድ ጊዜ ለአገልግሎታችን እውነተኛ መረጃን እንዲያስገኙ እናምርቃለን።
+
+ቁልፍ መጫን እንደምትጀምሩ ሁሉም መረጃ ይሰበሰባል፣ ወደ አገልግሎታችን እንደነዚህ ይላካል። እቅፍ በቀረው መረጃ ሁሉ ፕሪቫስ ነው።";
+"diagnosticsSuceessMessage" = "ለመማረግ እንኳን አመሰግናለሁ! ከእርስዎ ማነጋገር ደስ ይላል።";
+"diagnosticsInternetError" = "አልባስ ኔትዎርክ። እቅፍ ኢንተርኔት ግንኙነትዎን ይፈትሹ።";
+"diagnosticsStartDisconnectWarning" = "ዲያግኖስቲክ ጀምረው ወቅት አሁን ያለው ግንኙነት ይቋረጣል። በርግጥ መቀጠል ይፈልጋሉ?";
+"Cancel" = "ሰርዝ";
+"loading" = "በመጫን ላይ...";
+"UpdateAppMenu" = "አፕ አዘምን";
+"updateScreenLabel" = "አፕልክን ወደ በኋላ የተሻሻለ እትም አዘምን";
+"updateScreenSubtext" = "የnthLink አፕ አዲስ ቅጂ በአፕ ስቶር ላይ ይገኛል። አፕልክን አዘምነህ ከእኛ አስደናቂ ባህሪያት ሁሉ ጋር እንዲሆን እባኮት አዘምን።";
+"updateScreenUpdateNowButtonText" = "አሁን አዘምን";
+
+"connectionQualityLabel" = "የግንኙነት ጥራት";

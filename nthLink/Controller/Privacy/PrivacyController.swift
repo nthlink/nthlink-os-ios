@@ -2,7 +2,7 @@
 //  PrivacyController.swift
 //  nthLink
 //
-//  Created by Vaneet Modgillon 6/29/23.
+//  Created by RuiHua on 6/29/23.
 //
 
 import UIKit

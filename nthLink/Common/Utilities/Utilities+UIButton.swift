@@ -10,7 +10,7 @@ import UIKit
 
 //MARK:- Button Theme
 extension UIButton{
-    
+   
     @IBInspectable public var localizeKey: String {
         get {
             return ""
@@ -22,12 +22,18 @@ extension UIButton{
         }
     }
     
+   
+    
     func setImageColor(color: UIColor) {
         let templateImage = self.imageView?.image?.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
         self.imageView?.image = templateImage
         self.imageView?.tintColor = color
         self.tintColor = color
     }
+
+    
+    
+  
     
 }
 

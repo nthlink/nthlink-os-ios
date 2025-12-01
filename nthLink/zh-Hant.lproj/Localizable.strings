@@ -35,7 +35,7 @@
 "connection_hint_connect" = "點擊連接";
 "connection_hint_disconnect" = "點擊斷開";
 "Connect" = "連接";
-"Disconnect" = "斷開";
+"Disconnect" = "中斷連線";
 "Connected" = "已連接";
 "Connecting" = "正在連接…";
 "Disconnecting" = "斷開…";
@@ -51,7 +51,7 @@
 "about_page_title" = "關於";
 "about_version" = "版本";
 "about_text" = "<p>我們是一群經驗豐富的軟體和資訊安全工程師，於 2016 年創立了 nthLink，為需要獲取受限資訊並表達觀點的人權律師提供支援。 從那時起，我們就向更廣泛的公眾提供了這項服務。 我們的開發團隊是網路安全技術和服務可靠性方面的專家。<br>我們的服務是免費的，並且由於我們的贊助商和合作夥伴，我們將繼續免費。 他們是：<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>我們的開發團隊在審查規避技術的複雜性和服務的可靠性方面均表現出色。 憑藉在這一專業領域的多年經驗，我們為目標地區的用戶提供簡單、安全、可靠的存取方式，以獲取未經審查的資訊。</p>";
-"menu_drawer_item_1" = "首頁";
+"menu_drawer_item_1" = "連接";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "幫助";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "同意並繼續";
 "privacyPolicyLearnMoreButton" = "瞭解更多關於 nthLink";
 "homeReadLatestNews" = "閱讀最新新聞";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "已複製";
+"telegramIdCopiedAlert" = "請在Telegram上粘貼ID。";
+"followUsText" = "關注我們";
+"visitButtonText" = "訪問";
+"diagnosticPageTitle" = "診斷";
+"diagnosticsStartButton" = "開始診斷";
+"diagnosticsDescription" = "在nthLink，我們偶爾會尋求您的協助，透過提供診斷數據來改善我們的服務。
+
+點擊按鈕後，診斷過程將開始，收集信息並傳輸到我們的伺服器。請放心，所有收集的信息完全是匿名的。";
+"diagnosticsSuceessMessage" = "感謝您的幫助！我們很高興收到您的反饋。";
+"diagnosticsInternetError" = "網絡不穩定。請檢查您的網絡連接。";
+"diagnosticsStartDisconnectWarning" = "開始診斷將中斷當前連接。您確定要繼續嗎？";
+"Cancel" = "取消";
+"loading" = "加載中...";
+"UpdateAppMenu" = "更新應用程式";
+"updateScreenLabel" = "將您的應用程式更新至最新版本";
+"updateScreenSubtext" = "nthLink 應用程式的新版本已在應用商店推出。請更新您的應用程式以使用我們所有的精彩功能。";
+"updateScreenUpdateNowButtonText" = "立即更新";
+
+"connectionQualityLabel" = "連接質量";

@@ -51,7 +51,7 @@
 "about_page_title" = "Rólunk";
 "about_version" = "Verzió:";
 "about_text" = "<p>Tapasztalt szoftver- és információbiztonsági mérnökökből álló csoportot alkotunk, akik 2016-ban indították el az nthLink-et, hogy támogassák azokat az emberi jogi ügyvédeket, akiknek korlátozott információkhoz jutottak, és véleményük kifejtésére van szükségük. Azóta a szolgáltatást a szélesebb nyilvánosság számára is elérhetővé tesszük. Fejlesztőcsapatunk a hálózatbiztonsági technológia és a szolgáltatás-megbízhatóság szakértői.<br>Szolgáltatásunk ingyenes és továbbra is ingyenes lesz szponzorainknak és partnereinknek köszönhetően. Ők:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Fejlesztőcsapatunk a cenzúra-megkerülési technológia kifinomultságában és a szolgáltatás megbízhatóságában egyaránt kiemelkedő. Az ezen a speciális területen szerzett több éves tapasztalatunkkal a célzott földrajzi területeken lévő felhasználók számára egyszerű, biztonságos és megbízható hozzáférést biztosítunk az egyébként cenzúrázott információkhoz.</p>";
-"menu_drawer_item_1" = "Kezdőoldal";
+"menu_drawer_item_1" = "Csatlakozás";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Súgó";
@@ -83,5 +83,26 @@
 "privacyPolicyAgreeButton" = "Elfogad és folytat";
 "privacyPolicyLearnMoreButton" = "Tudj meg többet a nthLinkről";
 "homeReadLatestNews" = "Olvassa el a legfrissebb híreket";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Másolva";
+"telegramIdCopiedAlert" = "Kérjük, illessze be az ID-t a Telegramba.";
+"followUsText" = "Kövess minket";
+"visitButtonText" = "Látogatás";
+"diagnosticPageTitle" = "Diagnosztika";
+"diagnosticsStartButton" = "Diagnosztika indítása";
+"diagnosticsDescription" = "A nthLink-nál időnként kérjük az ön segítségét, hogy szolgáltatásunkat diagnosztikai adatok megadásával fejlesszük.
+
+A gombra kattintva elindul a diagnosztikai folyamat, amely információkat gyűjt, és továbbítja azokat a szervereinkre. Biztosítjuk, hogy az összegyűjtött információk teljesen névtelenek.";
+"diagnosticsSuceessMessage" = "Köszönjük, hogy segít nekünk fejlődni! Örömmel hallunk önről.";
+"diagnosticsInternetError" = "Instabil hálózat. Ellenőrizze az internetkapcsolatát.";
+"diagnosticsStartDisconnectWarning" = "A diagnosztika elindítása megszakítja a jelenlegi kapcsolatot. Biztosan folytatni szeretné?";
+"Cancel" = "Mégse";
+"loading" = "Betöltés...";
+"UpdateAppMenu" = "Alkalmazás frissítése";
+"updateScreenLabel" = "Frissítse alkalmazását a legújabb verzióra";
+"updateScreenSubtext" = "Az nthLink alkalmazás egy új verziója elérhető az App Store-ban. Kérjük, frissítse az alkalmazását, hogy használhassa összes csodálatos funkciónkat.";
+"updateScreenUpdateNowButtonText" = "Frissítés most";
 
 
+
+"connectionQualityLabel" = "Kapcsolat minősége";

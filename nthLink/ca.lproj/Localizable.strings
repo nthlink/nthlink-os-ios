@@ -51,7 +51,7 @@
 "about_page_title" = "Sobre";
 "about_version" = "Versió";
 "about_text" = "<p>Som un grup d'enginyers de programari i seguretat de la informació amb experiència que van iniciar nthLink l'any 2016 per donar suport als advocats de drets humans que necessitaven obtenir informació restringida i expressar les seves perspectives. Des d'aleshores hem posat el servei a disposició del públic en general. El nostre equip de desenvolupament és expert tant en tecnologia de seguretat de xarxa com en fiabilitat del servei.<br>El nostre servei és gratuït i seguirà sent gratuït gràcies als nostres patrocinadors i socis. Ells són:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>El nostre equip de desenvolupament destaca tant per la sofisticació de la tecnologia d'elusió de la censura com per la fiabilitat del servei. Amb anys d'experiència en aquesta àrea d'especialitat, oferim als usuaris en zones geogràfiques específiques un accés senzill, segur i fiable a la informació d'altra manera.censurada.</p>";
-"menu_drawer_item_1" = "Inici";
+"menu_drawer_item_1" = "Connectar";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Ajuda";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "D'acord i continuar";
 "privacyPolicyLearnMoreButton" = "Obtén més informació sobre nthLink";
 "homeReadLatestNews" = "Llegeix les últimes notícies";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Copiat";
+"telegramIdCopiedAlert" = "Si us plau, enganxeu l'ID a Telegram.";
+"followUsText" = "Segueix-nos";
+"visitButtonText" = "Visita";
+"diagnosticPageTitle" = "Diagnòstic";
+"diagnosticsStartButton" = "Inicia el diagnòstic";
+"diagnosticsDescription" = "A nthLink, de tant en tant sol·licitem la vostra ajuda per millorar el nostre servei proporcionant dades de diagnòstic.
+
+En fer clic al botó, s'inicia el procés de diagnòstic, recopilant informació i enviant-la als nostres servidors. Tingueu la seguretat que tota la informació recopilada és completament anònima.";
+"diagnosticsSuceessMessage" = "Gràcies per ajudar-nos a millorar! Ens encanta escoltar-vos.";
+"diagnosticsInternetError" = "Xarxa inestable. Comproveu la vostra connexió a Internet.";
+"diagnosticsStartDisconnectWarning" = "L'inici del diagnòstic desconnectarà la connexió actual. Esteu segur que voleu continuar?";
+"Cancel" = "Cancel·la";
+"loading" = "Carregant...";
+"UpdateAppMenu" = "Actualitza l'aplicació";
+"updateScreenLabel" = "Actualitza la teva aplicació a l'última versió";
+"updateScreenSubtext" = "Hi ha disponible una nova versió de l'aplicació nthLink a l'App Store. Actualitza la teva aplicació per utilitzar totes les nostres funcions increïbles.";
+"updateScreenUpdateNowButtonText" = "Actualitza ara";
+
+"connectionQualityLabel" = "Qualitat de connexió";

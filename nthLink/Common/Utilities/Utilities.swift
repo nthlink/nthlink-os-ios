@@ -8,5 +8,6 @@
 import Foundation
 
 class Utilities:NSObject{
-    
+    static var appVersionNumber = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")
+
 }

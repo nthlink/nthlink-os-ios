@@ -10,6 +10,7 @@ import UIKit
 // MARK: - Properties
 public extension UIView {
 
+    /// SwifterSwift: Border color of view; also inspectable from Storyboard.
     @IBInspectable var borderColor: UIColor? {
         get {
             guard let color = layer.borderColor else { return nil }
@@ -20,11 +21,13 @@ public extension UIView {
                 layer.borderColor = nil
                 return
             }
+            // Fix React-Native conflict issue
             guard String(describing: type(of: color)) != "__NSCFType" else { return }
             layer.borderColor = color.cgColor
         }
     }
 
+    /// SwifterSwift: Border width of view; also inspectable from Storyboard.
     @IBInspectable var borderWidth: CGFloat {
         get {
             return layer.borderWidth
@@ -44,6 +47,7 @@ public extension UIView {
         }
     }
 
+    /// SwifterSwift: Get view's parent view controller
     var parentViewController: UIViewController? {
         weak var parentResponder: UIResponder? = self
         while parentResponder != nil {
@@ -59,6 +63,14 @@ public extension UIView {
 
 // MARK: - Methods
 public extension UIView {
+
+    /// SwifterSwift: Add shadow to view.
+    ///
+    /// - Parameters:
+    ///   - color: shadow color (default is #137992).
+    ///   - radius: shadow radius (default is 3).
+    ///   - offset: shadow offset (default is .zero).
+    ///   - opacity: shadow opacity (default is 0.5).
     func addShadow(ofColor color: UIColor = UIColor(red: 0.07, green: 0.47, blue: 0.57, alpha: 1.0), radius: CGFloat = 3, offset: CGSize = .zero, opacity: Float = 0.5) {
         layer.shadowColor = color.cgColor
         layer.shadowOffset = offset
@@ -67,6 +79,12 @@ public extension UIView {
         layer.masksToBounds = false
     }
 
+    /// SwifterSwift: Load view from nib.
+    ///
+    /// - Parameters:
+    ///   - name: nib name.
+    ///   - bundle: bundle of nib (default is nil).
+    /// - Returns: optional UIView (if applicable).
     class func loadFromNib(named name: String, bundle: Bundle? = nil) -> UIView? {
         return UINib(nibName: name, bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as? UIView
     }

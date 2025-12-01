@@ -51,7 +51,7 @@
 "about_page_title" = "Om";
 "about_version" = "Versjon";
 "about_text" = "<p>Vi er en gruppe erfarne programvare- og informasjonssikkerhetsingeniører som startet nthLink i 2016 for å støtte menneskerettighetsadvokater som trengte å innhente begrenset informasjon og uttrykke sine perspektiver. Siden den gang har vi gjort tjenesten tilgjengelig for et bredere publikum. Vårt utviklingsteam er eksperter på både nettverkssikkerhetsteknologi og tjenestepålitelighet.<br>Tjenesten vår er gratis og vil forbli gratis takket være våre sponsorer og partnere. De er:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Utviklingsteamet vårt utmerker seg både i sofistikeringen av teknologi for omgåelse av sensur og påliteligheten til tjenesten. Med mange års erfaring innen dette spesialområdet gir vi brukerne i målrettede geografier enkel, sikker og pålitelig tilgang til ellers sensurert informasjon.</p>";
-"menu_drawer_item_1" = "Hjem";
+"menu_drawer_item_1" = "Koble til";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Hjelp";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Godta og fortsett";
 "privacyPolicyLearnMoreButton" = "Lær mer om nthLink";
 "homeReadLatestNews" = "Les siste nyheter";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Kopiert";
+"telegramIdCopiedAlert" = "Vennligst lim inn ID-en på Telegram.";
+"followUsText" = "Følg oss";
+"visitButtonText" = "Besøk";
+"diagnosticPageTitle" = "Diagnostikk";
+"diagnosticsStartButton" = "Start diagnostikk";
+"diagnosticsDescription" = "Hos nthLink ber vi deg noen ganger om hjelp til å forbedre tjenesten vår ved å gi diagnostiske data.
+
+Ved å klikke på knappen, starter diagnostikkprosessen som samler informasjon og sender den til serverne våre. Vær trygg på at all innsamlet informasjon er helt anonym.";
+"diagnosticsSuceessMessage" = "Takk for at du hjelper oss med å bli bedre! Vi setter pris på å høre fra deg.";
+"diagnosticsInternetError" = "Ustabilt nettverk. Sjekk internettforbindelsen din.";
+"diagnosticsStartDisconnectWarning" = "Å starte diagnostikk vil koble fra den nåværende tilkoblingen. Er du sikker på at du vil fortsette?";
+"Cancel" = "Avbryt";
+"loading" = "Laster...";
+"UpdateAppMenu" = "Oppdater app";
+"updateScreenLabel" = "Oppdater appen din til den nyeste versjonen";
+"updateScreenSubtext" = "En helt ny versjon av nthLink-appen er tilgjengelig i App Store. Oppdater appen din for å bruke alle våre fantastiske funksjoner.";
+"updateScreenUpdateNowButtonText" = "Oppdater nå";
+
+"connectionQualityLabel" = "Tilkoblingskvalitet";

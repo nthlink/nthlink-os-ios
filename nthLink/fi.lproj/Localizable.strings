@@ -51,7 +51,7 @@
 "about_page_title" = "Noin";
 "about_version" = "Versio";
 "about_text" = "<p>Olemme joukko kokeneita ohjelmisto- ja tietoturvainsinöörejä, jotka aloittivat nthLinkin vuonna 2016 tukemaan ihmisoikeusjuristeja, jotka tarvitsivat rajoitetun tiedon hankkimista ja näkemyksensä ilmaisemista. Siitä lähtien olemme tarjonneet palvelun laajemman yleisön saataville. Kehitystiimimme on sekä verkkoturvatekniikan että palvelun luotettavuuden asiantuntijoita.<br>Palvelumme on ilmainen ja pysyy maksuttomana sponsoridemme ja yhteistyökumppaneidemme ansiosta. He ovat:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>ehitystiimimme on erinomaista sekä sensuurin kiertämistekniikan hienostuneisuudessa että palvelun luotettavuudessa. Vuosien kokemuksella tällä erikoisalalla tarjoamme käyttäjille kohdistetulla maantieteellisellä alueella yksinkertaisen, turvallisen ja luotettavan pääsyn muuten sensuroituun tietoon.</p>";
-"menu_drawer_item_1" = "Koti";
+"menu_drawer_item_1" = "Yhdistä";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Auta";
@@ -83,3 +83,25 @@
 "privacyPolicyAgreeButton" = "Hyväksy ja jatka";
 "privacyPolicyLearnMoreButton" = "Lisätietoja nthLinkistä";
 "homeReadLatestNews" = "Lue viimeisimmät uutiset";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Kopioitu";
+"telegramIdCopiedAlert" = "Liitä ID Telegramiin.";
+"followUsText" = "Seuraa meitä";
+"visitButtonText" = "Käy";
+"diagnosticPageTitle" = "Diagnostiikka";
+"diagnosticsStartButton" = "Aloita diagnostiikka";
+"diagnosticsDescription" = "nthLink pyytää ajoittain apuasi palvelumme parantamiseen diagnostiikkatietojen avulla.
+
+Klikkaamalla painiketta diagnostiikkaprosessi käynnistyy, tietoja kerätään ja lähetetään palvelimillemme. Vakuutamme, että kaikki kerätyt tiedot ovat täysin anonyymejä.";
+"diagnosticsSuceessMessage" = "Kiitos, että autat meitä parantamaan! Kuulemme mielellämme palautettasi.";
+"diagnosticsInternetError" = "Epävakaa verkkoyhteys. Tarkista internet-yhteytesi.";
+"diagnosticsStartDisconnectWarning" = "Diagnostiikan aloittaminen katkaisee nykyisen yhteyden. Haluatko varmasti jatkaa?";
+"Cancel" = "Peruuta";
+"loading" = "Ladataan...";
+"UpdateAppMenu" = "Päivitä sovellus";
+"updateScreenLabel" = "Päivitä sovelluksesi uusimpaan versioon";
+"updateScreenSubtext" = "Uusi versio nthLink-sovelluksesta on saatavilla App Storesta. Päivitä sovelluksesi käyttääksesi kaikkia mahtavia ominaisuuksiamme.";
+"updateScreenUpdateNowButtonText" = "Päivitä nyt";
+
+
+"connectionQualityLabel" = "Yhteyden laatu";

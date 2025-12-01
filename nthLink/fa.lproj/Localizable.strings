@@ -51,7 +51,7 @@
 "about_page_title" = "در باره";
 "about_version" = "نسخه";
 "about_text" = "<p>ما گروهی از مهندسین نرم افزار و امنیت اطلاعات با تجربه هستیم که nthLink را در سال 2016 برای حمایت از وکلای حقوق بشری که نیاز به کسب اطلاعات محدود و بیان دیدگاه های خود داشتند، راه اندازی کردیم. از آن زمان ما این سرویس را در دسترس عموم قرار داده ایم. تیم توسعه ما در زمینه فناوری امنیت شبکه و قابلیت اطمینان خدمات متخصص هستند.<br>خدمات ما رایگان است و به لطف حامیان مالی و شرکای ما رایگان خواهد بود. آن ها هستند:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>نظر قابلیت اطمینان سرویس برتر است. ما با سالها تجربه در این زمینه تخصصی، دسترسی ساده، ایمن و قابل اعتماد به اطلاعات سانسور شده را برای کاربران در مناطق جغرافیایی هدف فراهم می کنیم.</p>";
-"menu_drawer_item_1" = "صفحه اصلی";
+"menu_drawer_item_1" = "اتصال";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "کمک";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "موافقم و ادامه می‌دهم";
 "privacyPolicyLearnMoreButton" = "درباره nthLink بیشتر بدانید";
 "homeReadLatestNews" = "خواندن آخرین اخبار";
+"telegramIDText" = "تلگرام: @nthLinkVPN";
+"copiedText" = "کپی شد";
+"telegramIdCopiedAlert" = "لطفاً شناسه را در تلگرام بچسبانید.";
+"followUsText" = "ما را دنبال کنید";
+"visitButtonText" = "بازدید";
+"diagnosticPageTitle" = "عیب‌یابی";
+"diagnosticsStartButton" = "شروع عیب‌یابی";
+"diagnosticsDescription" = "در nthLink، گاهی از شما برای بهبود خدمات خود با ارائه اطلاعات عیب‌یابی کمک می‌خواهیم.
+
+با کلیک روی دکمه، فرآیند عیب‌یابی آغاز می‌شود و اطلاعات جمع‌آوری و به سرورهای ما ارسال می‌شود. اطمینان داشته باشید که تمام اطلاعات جمع‌آوری‌شده کاملاً ناشناس است.";
+"diagnosticsSuceessMessage" = "از اینکه به بهبود ما کمک می‌کنید سپاسگزاریم! مشتاق شنیدن نظرات شما هستیم.";
+"diagnosticsInternetError" = "اتصال شبکه ناپایدار است. لطفاً اتصال اینترنت خود را بررسی کنید.";
+"diagnosticsStartDisconnectWarning" = "شروع عیب‌یابی اتصال فعلی را قطع می‌کند. آیا مطمئن هستید که می‌خواهید ادامه دهید؟";
+"Cancel" = "لغو";
+"loading" = "در حال بارگذاری...";
+"UpdateAppMenu" = "به‌روزرسانی برنامه";
+"updateScreenLabel" = "برنامه خود را به آخرین نسخه به‌روزرسانی کنید";
+"updateScreenSubtext" = "نسخه جدیدی از برنامه nthLink در فروشگاه برنامه در دسترس است. لطفاً برنامه خود را به‌روزرسانی کنید تا از تمام ویژگی‌های شگفت‌انگیز ما استفاده کنید.";
+"updateScreenUpdateNowButtonText" = "اکنون به‌روزرسانی کنید";
+
+"connectionQualityLabel" = "کیفیت اتصال";

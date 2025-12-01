@@ -51,7 +51,7 @@
 "about_page_title" = "About";
 "about_version" = "Version";
 "about_text" = "<p>We are a group of experienced software and information security engineers who started nthLink in 2016 to support human rights lawyers who needed to obtain restricted information and to express their perspectives. Since then we&rsquo;ve made the service available to the wider public. Our development team are experts in both network security technology and service reliability.</p><p>Our service is free and will remain free thanks to our sponsors and partners. They are:<br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Our development team excels in both the sophistication of censorship circumvention technology and the reliability of the service. With years of experience in this specialty area, we provide the users in targeted geographies simple, safe, and reliable access to otherwise censored information.</p>";
-"menu_drawer_item_1" = "Status";
+"menu_drawer_item_1" = "Connect";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Help";
@@ -82,6 +82,30 @@
 "privacyPolicyAgreeButton" = "Agree and continue";
 "privacyPolicyLearnMoreButton" = "Learn more about nthLink";
 "homeReadLatestNews" = "Read Latest News";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Copied";
+"telegramIdCopiedAlert" = "Please paste ID on Telegram.";
+"followUsText" = "Follow Us";
+"visitButtonText" = "Visit";
+"diagnosticPageTitle" = "Diagnostic";
+"diagnosticsStartButton" = "Start Diagnostics";
+"diagnosticsDescription" = "At nthLink, we occasionally seek your assistance in enhancing our service by providing diagnostic data.
 
-
-
+By clicking the button, the diagnostics process begins, collecting information and transmitting it to our servers. Rest assured, all information gathered is completely anonymous.";
+"diagnosticsSuceessMessage" = "Thanks for helping us improve! We love hearing from you.";
+"diagnosticsInternetError" = "Unstable network. Please check your internet connection.";
+"diagnosticsStartDisconnectWarning" = "Starting diagnostics will disconnect the current connection. Are you sure you want to proceed?";
+"Cancel" = "Cancel";
+"loading" = "loading...";
+"UpdateAppMenu" = "Update App";
+"updateScreenLabel" = "Update your application to the latest version";
+"updateScreenSubtext" = "A brand new version of the nthLink app is available in the App Store. Please update your app to use all of our amazing features.";
+"updateScreenUpdateNowButtonText" = "Update Now";
+"connectivityWarning" = "No recent proxy activity detected";
+"connectivityError" = "Unable to reach proxy server. Connection may be blocked.";
+"vpnPermissionDeniedTitle" = "VPN Permission Required";
+"vpnPermissionDeniedMessage" = "nthLink needs your permission to create a VPN connection. This allows the app to protect your internet traffic. Please tap 'Try Again' and select 'Allow' when prompted.";
+"vpnConfigurationErrorTitle" = "Connection Error";
+"vpnConfigurationErrorMessage" = "Unable to configure VPN connection. Please try again later.";
+"tryAgain" = "Try Again";
+"connectionQualityLabel" = "Connection Quality";

@@ -2,7 +2,7 @@
 //  Extension.swift
 //  nthLink
 //
-//  Created by Vaneet Modgillon 6/29/23.
+//  Created by RuiHua on 6/29/23.
 //
 
 import Foundation
@@ -93,6 +93,7 @@ public extension UIDevice {
             case "iPod5,1":                                       return "iPod touch (5th generation)"
             case "iPod7,1":                                       return "iPod touch (6th generation)"
             case "iPod9,1":                                       return "iPod touch (7th generation)"
+                
             case "iPhone3,1", "iPhone3,2", "iPhone3,3":           return "iPhone 4"
             case "iPhone4,1":                                     return "iPhone 4s"
             case "iPhone5,1", "iPhone5,2":                        return "iPhone 5"
@@ -125,9 +126,14 @@ public extension UIDevice {
             case "iPhone14,8":                                    return "iPhone 14 Plus"
             case "iPhone15,2":                                    return "iPhone 14 Pro"
             case "iPhone15,3":                                    return "iPhone 14 Pro Max"
+            case "iPhone15,4":                                    return "iPhone 15"
+            case "iPhone15,5":                                    return "iPhone 15 Plus"
+            case "iPhone16,1":                                    return "iPhone 15 Pro"
+            case "iPhone16,2":                                    return "iPhone 15 Pro Max"
             case "iPhone8,4":                                     return "iPhone SE"
             case "iPhone12,8":                                    return "iPhone SE (2nd generation)"
             case "iPhone14,6":                                    return "iPhone SE (3rd generation)"
+                
             case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4":      return "iPad 2"
             case "iPad3,1", "iPad3,2", "iPad3,3":                 return "iPad (3rd generation)"
             case "iPad3,4", "iPad3,5", "iPad3,6":                 return "iPad (4th generation)"

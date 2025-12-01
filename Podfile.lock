@@ -1,8 +1,7 @@
 PODS:
-  - Alamofire (5.0.5)
   - Dropper (2.7.6)
   - IQKeyboardManagerSwift (6.0.4)
-  - lottie-ios (4.2.0)
+  - Kingfisher (8.2.0)
   - Material (3.1.8):
     - Material/Core (= 3.1.8)
   - Material/Core (3.1.8):
@@ -13,33 +12,29 @@ PODS:
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 5.0.0-rc.2)
   - Dropper
   - IQKeyboardManagerSwift (= 6.0.4)
-  - lottie-ios
+  - Kingfisher
   - Material
-  - Motion
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
-    - Alamofire
     - Dropper
     - IQKeyboardManagerSwift
-    - lottie-ios
+    - Kingfisher
     - Material
     - Motion
     - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
   Dropper: 52a020beb6fef2e4b1d55447f17099e5776954ef
   IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
-  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  Kingfisher: 323e5c4ec7983aaace12af655a7b51a7f88a599d
   Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
   Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: a9b2252228ca1945874db5f64bad076c6e5b525a
+PODFILE CHECKSUM: e42fb0761c81512a05c0334e24d49ab324fe5677
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.16.2

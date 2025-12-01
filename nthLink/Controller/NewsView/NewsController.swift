@@ -2,7 +2,7 @@
 //  NewsController.swift
 //  nthLink
 //
-//  Created by Vaneet Modgillon 7/17/23.
+//  Created by RuiHua on 7/17/23.
 //
 
 import UIKit
@@ -48,22 +48,27 @@ class NewsController: UIViewController {
     }
     
     private func setupInitialData(){
-        self.cleanWebViewCookies()
-        webview.navigationDelegate = self
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
-            if let url =  URL(string: self.newsURL) {
-                self.webview.load(URLRequest(url:url))
-            }
-        })
-        self.showNewsView(isShow: false)
-        lbStatus.text = LocalizedStringEnum.word_loading.localized
-        self.setupMenuView()
+        self.cleanWebViewCookies { [weak self] in
+            self?.webview.navigationDelegate = self
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [weak self] in
+                if let url =  URL(string: self?.newsURL ?? "") {
+                    self?.webview.load(URLRequest(url:url))
+                }
+            })
+            self?.showNewsView(isShow: false)
+            self?.lbStatus.text = LocalizedStringEnum.word_loading.localized
+            self?.setupMenuView()
+        }
     }
+
     
-    private func cleanWebViewCookies() {
-        let cookieJar = HTTPCookieStorage.shared
-        for cookie in cookieJar.cookies! {
-            cookieJar.deleteCookie(cookie)
+    func cleanWebViewCookies(completion: @escaping () -> Void) {
+        let dataTypes = Set([WKWebsiteDataTypeCookies])
+        let dateFrom = Date(timeIntervalSince1970: 0)
+        
+        WKWebsiteDataStore.default().removeData(ofTypes: dataTypes, modifiedSince: dateFrom) {
+            print("WKWebView cookies cleared.")
+            completion()
         }
     }
     
@@ -143,11 +148,13 @@ class NewsController: UIViewController {
 
 extension NewsController:WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+//        print("Webview : Loaded success!")
         newsView.isHidden = false
         loadingView.isHidden = true
     }
     
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+//        print("Webview : Loaded failed!")
         newsView.isHidden = false
         loadingView.isHidden = true
     }

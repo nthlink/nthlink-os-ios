@@ -51,7 +51,7 @@
 "about_page_title" = "Over";
 "about_version" = "Versie";
 "about_text" = "<p>Wij zijn een groep ervaren software- en informatiebeveiligingsingenieurs die in 2016 nthLink zijn gestart om mensenrechtenadvocaten te ondersteunen die beperkte informatie moesten verkrijgen en hun perspectieven moesten uiten. Sindsdien hebben we de dienst beschikbaar gemaakt voor een breder publiek. Ons ontwikkelingsteam is expert op het gebied van zowel netwerkbeveiligingstechnologie als servicebetrouwbaarheid.<br>Onze dienstverlening is gratis en blijft gratis dankzij onze sponsors en partners. Zij zijn:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Ons ontwikkelingsteam blinkt uit in zowel de verfijning van technologie voor het omzeilen van censuur als de betrouwbaarheid van de service. Met jarenlange ervaring op dit speciale gebied bieden we de gebruikers in gerichte geografische gebieden eenvoudige, veilige en betrouwbare toegang tot anderszins gecensureerde informatie.</p>";
-"menu_drawer_item_1" = "Thuis";
+"menu_drawer_item_1" = "Verbinden";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Hulp";
@@ -83,3 +83,23 @@
 "privacyPolicyAgreeButton" = "Akkoord en doorgaan";
 "privacyPolicyLearnMoreButton" = "Meer weten over nthLink";
 "homeReadLatestNews" = "Lees het laatste nieuws";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Gekopieerd";
+"telegramIdCopiedAlert" = "Plak het ID op Telegram.";
+"followUsText" = "Volg ons";
+"visitButtonText" = "Bezoek";
+"diagnosticPageTitle" = "Diagnose";
+"diagnosticsStartButton" = "Start diagnose";
+"diagnosticsDescription" = "Bij nthLink vragen we af en toe om uw hulp om onze service te verbeteren door diagnostische gegevens te verstrekken.
+
+Door op de knop te klikken, start het diagnoseproces, waarbij informatie wordt verzameld en naar onze servers wordt verzonden. Wees gerust, alle verzamelde informatie is volledig anoniem.";
+"diagnosticsSuceessMessage" = "Bedankt voor je hulp bij het verbeteren! We horen graag van je.";
+"diagnosticsInternetError" = "Onstabiel netwerk. Controleer je internetverbinding.";
+"diagnosticsStartDisconnectWarning" = "Het starten van de diagnose verbreekt de huidige verbinding. Weet je zeker dat je wilt doorgaan?";
+"Cancel" = "Annuleren";
+"loading" = "Laden...";
+"UpdateAppMenu" = "App bijwerken";
+"updateScreenLabel" = "Werk je app bij naar de nieuwste versie";
+"updateScreenSubtext" = "Een gloednieuwe versie van de nthLink-app is beschikbaar in de App Store. Werk je app bij om gebruik te maken van al onze geweldige functies.";
+"updateScreenUpdateNowButtonText" = "Nu bijwerken";
+"connectionQualityLabel" = "Verbindingskwaliteit";

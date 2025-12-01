@@ -51,7 +51,7 @@
 "about_page_title" = "O";
 "about_version" = "Verzia";
 "about_text" = "<p>Sme skupina skúsených inžinierov v oblasti softvéru a informačnej bezpečnosti, ktorí spustili nthLink v roku 2016 na podporu právnikov v oblasti ľudských práv, ktorí potrebovali získať obmedzené informácie a vyjadriť svoje názory. Odvtedy sme službu sprístupnili širšej verejnosti. Náš vývojový tím je odborníkmi na technológiu zabezpečenia siete a spoľahlivosť služieb.<br>Naša služba je bezplatná a zostane bezplatná vďaka našim sponzorom a partnerom. Oni sú:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Náš vývojový tím vyniká tak sofistikovanosťou technológie na obchádzanie cenzúry, ako aj spoľahlivosťou služieb. S dlhoročnými skúsenosťami v tejto špeciálnej oblasti poskytujeme používateľom v cielených zemepisných oblastiach jednoduchý, bezpečný a spoľahlivý prístup k inak cenzurovaným informáciám.</p>";
-"menu_drawer_item_1" = "Domov";
+"menu_drawer_item_1" = "Pripojiť sa";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Pomoc";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Súhlasím a pokračovať";
 "privacyPolicyLearnMoreButton" = "Dozvedieť sa viac o nthLink";
 "homeReadLatestNews" = "Prečítajte si najnovšie správy";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Skopírované";
+"telegramIdCopiedAlert" = "Prosím, vložte ID do Telegramu.";
+"followUsText" = "Sledujte nás";
+"visitButtonText" = "Navštívte";
+"diagnosticPageTitle" = "Diagnostika";
+"diagnosticsStartButton" = "Spustiť diagnostiku";
+"diagnosticsDescription" = "V nthLink občas požadujeme vašu pomoc na zlepšenie našich služieb poskytovaním diagnostických údajov.
+
+Kliknutím na tlačidlo sa spustí proces diagnostiky, ktorý zhromažďuje informácie a odosiela ich na naše servery. Uisťujeme vás, že všetky zhromaždené údaje sú úplne anonymné.";
+"diagnosticsSuceessMessage" = "Ďakujeme, že nám pomáhate zlepšovať sa! Radi si vypočujeme vaše názory.";
+"diagnosticsInternetError" = "Nestabilná sieť. Skontrolujte svoje internetové pripojenie.";
+"diagnosticsStartDisconnectWarning" = "Spustením diagnostiky sa preruší aktuálne pripojenie. Ste si istí, že chcete pokračovať?";
+"Cancel" = "Zrušiť";
+"loading" = "Načítava sa...";
+"UpdateAppMenu" = "Aktualizovať aplikáciu";
+"updateScreenLabel" = "Aktualizujte svoju aplikáciu na najnovšiu verziu";
+"updateScreenSubtext" = "Nová verzia aplikácie nthLink je dostupná v App Store. Aktualizujte svoju aplikáciu a využite všetky naše úžasné funkcie.";
+"updateScreenUpdateNowButtonText" = "Aktualizovať teraz";
+
+"connectionQualityLabel" = "Kvalita pripojenia";

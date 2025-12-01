@@ -51,7 +51,7 @@
 "about_page_title" = "Par";
 "about_version" = "Versija";
 "about_text" = "<p>Mēs esam pieredzējušu programmatūras un informācijas drošības inženieru grupa, kas nthLink uzsāka 2016. gadā, lai atbalstītu cilvēktiesību juristus, kuriem bija nepieciešams iegūt ierobežotas pieejamības informāciju un izteikt savu viedokli. Kopš tā laika mēs esam padarījuši pakalpojumu pieejamu plašākai sabiedrībai. Mūsu izstrādes komanda ir gan tīkla drošības tehnoloģiju, gan pakalpojumu uzticamības eksperti.<br>Mūsu pakalpojums ir bezmaksas, un tas paliks bez maksas, pateicoties mūsu sponsoriem un partneriem. Viņi ir:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Mūsu izstrādes komanda izceļas gan ar cenzūras apiešanas tehnoloģiju izsmalcinātību, gan pakalpojuma uzticamību. Ar daudzu gadu pieredzi šajā specializētajā jomā mēs sniedzam lietotājiem mērķtiecīgās ģeogrāfiskās vietās vienkāršu, drošu un uzticamu piekļuvi citādi cenzētai informācijai.</p>";
-"menu_drawer_item_1" = "Mājas";
+"menu_drawer_item_1" = "Savienot";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Palīdzība";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Piekrītu un turpināt";
 "privacyPolicyLearnMoreButton" = "Uzziniet vairāk par nthLink";
 "homeReadLatestNews" = "Lasiet jaunākās ziņas";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Nokopēts";
+"telegramIdCopiedAlert" = "Lūdzu, ielīmējiet ID Telegram.";
+"followUsText" = "Sekojiet mums";
+"visitButtonText" = "Apmeklēt";
+"diagnosticPageTitle" = "Diagnostika";
+"diagnosticsStartButton" = "Sākt diagnostiku";
+"diagnosticsDescription" = "Vietnē nthLink mēs laiku pa laikam lūdzam jūsu palīdzību mūsu pakalpojuma uzlabošanā, sniedzot diagnostikas datus.
+
+Noklikšķinot uz pogas, sāksies diagnostikas process, kurā tiek vākti dati un nosūtīti uz mūsu serveriem. Esiet droši, ka visa savāktā informācija ir pilnīgi anonīma.";
+"diagnosticsSuceessMessage" = "Paldies, ka palīdzat mums uzlaboties! Mums patīk dzirdēt no jums.";
+"diagnosticsInternetError" = "Nestabils tīkla savienojums. Lūdzu, pārbaudiet savu interneta pieslēgumu.";
+"diagnosticsStartDisconnectWarning" = "Sākot diagnostiku, pašreizējais savienojums tiks pārtraukts. Vai tiešām vēlaties turpināt?";
+"Cancel" = "Atcelt";
+"loading" = "ielādē...";
+"UpdateAppMenu" = "Atjaunināt lietotni";
+"updateScreenLabel" = "Atjauniniet savu lietotni uz jaunāko versiju";
+"updateScreenSubtext" = "Jauna nthLink lietotnes versija ir pieejama App Store. Lūdzu, atjauniniet lietotni, lai izmantotu visas mūsu pārsteidzošās funkcijas.";
+"updateScreenUpdateNowButtonText" = "Atjaunināt tagad";
+
+"connectionQualityLabel" = "Savienojuma kvalitāte";

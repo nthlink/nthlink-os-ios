@@ -2,7 +2,7 @@
 //  FeedbackController.swift
 //  nthLink
 //
-//  Created by Vaneet Modgillon 7/12/23.
+//  Created by RuiHua on 7/12/23.
 //
 
 import UIKit

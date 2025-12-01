@@ -51,7 +51,7 @@
 "about_page_title" = "Về";
 "about_version" = "Phiên bản";
 "about_text" = "<p>Chúng tôi là một nhóm gồm các kỹ sư bảo mật thông tin và phần mềm giàu kinh nghiệm đã thành lập nthLink vào năm 2016 để hỗ trợ các luật sư nhân quyền, những người cần thu thập thông tin bị hạn chế và bày tỏ quan điểm của họ. Kể từ đó, chúng tôi đã cung cấp dịch vụ này cho công chúng rộng rãi hơn. Đội ngũ phát triển của chúng tôi là những chuyên gia về cả công nghệ an ninh mạng và độ tin cậy của dịch vụ.<br>Dịch vụ của chúng tôi là miễn phí và sẽ vẫn miễn phí nhờ các nhà tài trợ và đối tác của chúng tôi. Họ đang:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Nhóm phát triển của chúng tôi vượt trội cả về sự tinh vi của công nghệ vượt qua kiểm duyệt và độ tin cậy của dịch vụ. Với nhiều năm kinh nghiệm trong lĩnh vực đặc biệt này, chúng tôi cung cấp cho người dùng trong các khu vực địa lý mục tiêu quyền truy cập đơn giản, an toàn và đáng tin cậy vào các thông tin đã được kiểm duyệt.</p>.";
-"menu_drawer_item_1" = "Trang chủ";
+"menu_drawer_item_1" = "Kết nối";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Trợ giúp";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Đồng ý và tiếp tục";
 "privacyPolicyLearnMoreButton" = "Tìm hiểu thêm về nthLink";
 "homeReadLatestNews" = "Đọc tin tức mới nhất";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Đã sao chép";
+"telegramIdCopiedAlert" = "Vui lòng dán ID vào Telegram.";
+"followUsText" = "Theo dõi chúng tôi";
+"visitButtonText" = "Thăm";
+"diagnosticPageTitle" = "Chẩn đoán";
+"diagnosticsStartButton" = "Bắt đầu chẩn đoán";
+"diagnosticsDescription" = "Tại nthLink, đôi khi chúng tôi yêu cầu sự trợ giúp của bạn để cải thiện dịch vụ bằng cách cung cấp dữ liệu chẩn đoán.
+
+Khi nhấn nút, quá trình chẩn đoán sẽ bắt đầu, thu thập thông tin và gửi đến máy chủ của chúng tôi. Hãy yên tâm rằng tất cả thông tin thu thập đều hoàn toàn ẩn danh.";
+"diagnosticsSuceessMessage" = "Cảm ơn bạn đã giúp chúng tôi cải thiện! Chúng tôi rất vui khi nghe ý kiến từ bạn.";
+"diagnosticsInternetError" = "Mạng không ổn định. Vui lòng kiểm tra kết nối Internet của bạn.";
+"diagnosticsStartDisconnectWarning" = "Bắt đầu chẩn đoán sẽ ngắt kết nối hiện tại. Bạn có chắc chắn muốn tiếp tục không?";
+"Cancel" = "Hủy";
+"loading" = "Đang tải...";
+"UpdateAppMenu" = "Cập nhật ứng dụng";
+"updateScreenLabel" = "Cập nhật ứng dụng của bạn lên phiên bản mới nhất";
+"updateScreenSubtext" = "Phiên bản mới của ứng dụng nthLink hiện có sẵn trên App Store. Vui lòng cập nhật ứng dụng để sử dụng tất cả các tính năng tuyệt vời của chúng tôi.";
+"updateScreenUpdateNowButtonText" = "Cập nhật ngay";
+
+"connectionQualityLabel" = "Chất lượng kết nối";

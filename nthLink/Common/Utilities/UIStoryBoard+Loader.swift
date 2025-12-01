@@ -54,4 +54,17 @@ extension UIStoryboard {
         return loadFromMain(NewsController.className) as! NewsController
     }
     
+    static func loadDiagnosticsViewController() -> DiagnosticsViewController {
+        return loadFromMain(DiagnosticsViewController.className) as! DiagnosticsViewController
+    }
+    
+    
+    static func loadAppUpdateViewController() -> AppUpdateViewController {
+        return loadFromMain(AppUpdateViewController.className) as! AppUpdateViewController
+    }
+
+    
+    
+    
+    
 }

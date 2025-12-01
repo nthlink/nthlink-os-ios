@@ -51,7 +51,7 @@
 "about_page_title" = "O";
 "about_version" = "Verzija";
 "about_text" = "<p>Mi smo skupina iskusnih inženjera za softver i informacijsku sigurnost koji su pokrenuli nthLink 2016. kako bi podržali odvjetnike za ljudska prava koji su trebali dobiti ograničene informacije i izraziti svoje perspektive. Od tada smo uslugu učinili dostupnom široj javnosti. Naš razvojni tim stručnjaci su za tehnologiju mrežne sigurnosti i pouzdanost usluge.<br>Naša usluga je besplatna i ostat će besplatna zahvaljujući našim sponzorima i partnerima. Oni su:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Naš razvojni tim ističe se i sofisticiranošću tehnologije zaobilaženja cenzure i pouzdanošću usluge. S dugogodišnjim iskustvom u ovom specijalnom području, korisnicima u ciljanim područjima pružamo jednostavan, siguran i pouzdan pristup inače cenzuriranim informacijama.</p>";
-"menu_drawer_item_1" = "Dom";
+"menu_drawer_item_1" = "Poveži se";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Pomoć";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Slažem se i nastavi";
 "privacyPolicyLearnMoreButton" = "Saznajte više o nthLink";
 "homeReadLatestNews" = "Pročitajte najnovije vijesti";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Kopirano";
+"telegramIdCopiedAlert" = "Molimo zalijepite ID na Telegram.";
+"followUsText" = "Pratite nas";
+"visitButtonText" = "Posjetite";
+"diagnosticPageTitle" = "Dijagnostika";
+"diagnosticsStartButton" = "Pokreni dijagnostiku";
+"diagnosticsDescription" = "U nthLink povremeno tražimo vašu pomoć u poboljšanju naših usluga pružanjem dijagnostičkih podataka.
+
+Klikom na gumb započinje postupak dijagnostike, prikupljanje informacija i slanje na naše poslužitelje. Budite uvjereni da su svi prikupljeni podaci potpuno anonimni.";
+"diagnosticsSuceessMessage" = "Hvala što nam pomažete da se poboljšamo! Volimo čuti vaše mišljenje.";
+"diagnosticsInternetError" = "Nestabilna mreža. Provjerite svoju internetsku vezu.";
+"diagnosticsStartDisconnectWarning" = "Pokretanjem dijagnostike prekinut će se trenutna veza. Jeste li sigurni da želite nastaviti?";
+"Cancel" = "Odustani";
+"loading" = "Učitavanje...";
+"UpdateAppMenu" = "Ažuriraj aplikaciju";
+"updateScreenLabel" = "Ažurirajte svoju aplikaciju na najnoviju verziju";
+"updateScreenSubtext" = "Nova verzija aplikacije nthLink dostupna je u App Storeu. Ažurirajte aplikaciju kako biste koristili sve naše nevjerojatne značajke.";
+"updateScreenUpdateNowButtonText" = "Ažuriraj sada";
+
+"connectionQualityLabel" = "Kvaliteta veze";

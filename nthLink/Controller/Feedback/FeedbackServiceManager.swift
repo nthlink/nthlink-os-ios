@@ -20,11 +20,9 @@ class FeedbackServiceManager {
     
     @available(iOS 15, *)
     func submitFeedback(emailID:String?, description:String?){
-        let result = 200 // Hit API and handle the success
-        if result == 200 {
+        // Hardcoded success response (nthLinkOpenSource approach)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             self.delegate?.feedbackServiceManagerDidSuccessfulySubmitFeedback(feedbackServiceManager: self)
-            return
         }
-        self.delegate?.feedbackServiceManagerDidFailToSendFeedback(feedbackServiceManager: self)
     }
 }

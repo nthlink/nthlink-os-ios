@@ -51,7 +51,7 @@
 "about_page_title" = "关于";
 "about_version" = "版本";
 "about_text" = "<p>我们是一群经验丰富的软件和信息安全工程师，于 2016 年创立了 nthLink，为需要获取受限信息并表达观点的人权律师提供支持。 从那时起，我们就向更广泛的公众提供了这项服务。 我们的开发团队是网络安全技术和服务可靠性方面的专家。<br>我们的服务是免费的，并且由于我们的赞助商和合作伙伴，我们将继续免费。 他们是：<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>我们的开发团队在审查规避技术的复杂性和服务的可靠性方面均表现出色。 凭借在这一专业领域的多年经验，我们为目标地区的用户提供简单、安全、可靠的访问方式，以获取未经审查的信息。</p>";
-"menu_drawer_item_1" = "主页";
+"menu_drawer_item_1" = "连接";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "帮助";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "同意并继续";
 "privacyPolicyLearnMoreButton" = "了解更多关于 nthLink";
 "homeReadLatestNews" = "阅读最新新闻";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "已复制";
+"telegramIdCopiedAlert" = "请在Telegram上粘贴ID。";
+"followUsText" = "关注我们";
+"visitButtonText" = "访问";
+"diagnosticPageTitle" = "诊断";
+"diagnosticsStartButton" = "开始诊断";
+"diagnosticsDescription" = "在nthLink，我们偶尔会寻求您的帮助，通过提供诊断数据来改善我们的服务。
+
+点击按钮后，诊断过程将开始，收集信息并传输到我们的服务器。请放心，所有收集的信息完全是匿名的。";
+"diagnosticsSuceessMessage" = "感谢您的帮助！我们很高兴听到您的反馈。";
+"diagnosticsInternetError" = "网络不稳定。请检查您的网络连接。";
+"diagnosticsStartDisconnectWarning" = "开始诊断将断开当前连接。您确定要继续吗？";
+"Cancel" = "取消";
+"loading" = "加载中...";
+"UpdateAppMenu" = "更新应用";
+"updateScreenLabel" = "将您的应用程序更新到最新版本";
+"updateScreenSubtext" = "nthLink 应用的全新版本已在应用商店中上线。请更新您的应用以使用我们所有的精彩功能。";
+"updateScreenUpdateNowButtonText" = "立即更新";
+
+"connectionQualityLabel" = "连接质量";

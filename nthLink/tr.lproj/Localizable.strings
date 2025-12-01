@@ -51,7 +51,7 @@
 "about_page_title" = "Hakkında";
 "about_version" = "Sürüm";
 "about_text" = "<p>Kısıtlı bilgilere ihtiyaç duyan insan hakları avukatlarına destek olmak ve bakış açılarını ifade etmek amacıyla 2016 yılında nthLink'i kuran deneyimli yazılım ve bilgi güvenliği mühendislerinden oluşan bir grubuz. O zamandan bu yana hizmeti daha geniş bir kitlenin kullanımına sunduk. Geliştirme ekibimiz hem ağ güvenliği teknolojisi hem de hizmet güvenilirliği konusunda uzmandır.<br>Hizmetimiz ücretsizdir ve sponsorlarımız ve ortaklarımız sayesinde ücretsiz kalacaktır. Bunlar:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Geliştirme ekibimiz, hem sansür atlatma teknolojisinin gelişmişliği hem de hizmetin güvenilirliği konusunda üstündür. Bu uzmanlık alanındaki yılların deneyimiyle, hedeflenen coğrafyalardaki kullanıcılara, aksi takdirde sansürlenmiş bilgilere basit, güvenli ve güvenilir erişim sağlıyoruz.</p>";
-"menu_drawer_item_1" = "Ev";
+"menu_drawer_item_1" = "Bağlan";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Yardım";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Kabul Et ve Devam Et";
 "privacyPolicyLearnMoreButton" = "nthLink Hakkında Daha Fazla Bilgi Edinin";
 "homeReadLatestNews" = "En Son Haberleri Oku";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Kopyalandı";
+"telegramIdCopiedAlert" = "Lütfen ID'yi Telegram'a yapıştırın.";
+"followUsText" = "Bizi takip et";
+"visitButtonText" = "Ziyaret";
+"diagnosticPageTitle" = "Tanılama";
+"diagnosticsStartButton" = "Tanılamayı Başlat";
+"diagnosticsDescription" = "nthLink'de, hizmetimizi iyileştirmek için zaman zaman tanılama verileri sağlamanızı rica ediyoruz.
+
+Butona tıkladığınızda tanılama süreci başlar, bilgiler toplanır ve sunucularımıza iletilir. Tüm bilgilerin tamamen anonim olduğundan emin olabilirsiniz.";
+"diagnosticsSuceessMessage" = "Bize yardımcı olduğunuz için teşekkür ederiz! Görüşlerinizi duymaktan mutluluk duyarız.";
+"diagnosticsInternetError" = "Dengesiz ağ. Lütfen internet bağlantınızı kontrol edin.";
+"diagnosticsStartDisconnectWarning" = "Tanılamayı başlatmak mevcut bağlantıyı kesecektir. Devam etmek istediğinizden emin misiniz?";
+"Cancel" = "İptal";
+"loading" = "Yükleniyor...";
+"UpdateAppMenu" = "Uygulamayı Güncelle";
+"updateScreenLabel" = "Uygulamanızı en son sürüme güncelleyin";
+"updateScreenSubtext" = "nthLink uygulamasının yepyeni bir sürümü App Store'da mevcut. Tüm harika özelliklerimizi kullanmak için uygulamanızı güncelleyin.";
+"updateScreenUpdateNowButtonText" = "Şimdi Güncelle";
+
+"connectionQualityLabel" = "Bağlantı Kalitesi";

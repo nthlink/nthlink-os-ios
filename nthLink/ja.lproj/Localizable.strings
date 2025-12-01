@@ -51,7 +51,7 @@
 "about_page_title" = "概要";
 "about_version" = "バージョン%s";
 "about_text" = "<p>私たちは、経験豊富なソフトウェアおよび情報セキュリティ エンジニアのグループであり、制限された情報を入手し、自分たちの見解を表明する必要がある人権弁護士をサポートするために、2016 年に nthLink を設立しました。 それ以来、このサービスを広く一般の人が利用できるようにしてきました。 当社の開発チームは、ネットワーク セキュリティ テクノロジーとサービスの信頼性の両方の専門家です。<br>私たちのサービスは無料であり、スポンサーとパートナーのおかげで今後も無料であり続けます。 彼らです：<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>私たちの開発チームは、高度な検閲回避技術とサービスの信頼性の両方に優れています。この専門分野での長年の経験により、対象地域のユーザーに、検閲された情報への簡単で安全かつ信頼性の高いアクセスを提供します。</p>";
-"menu_drawer_item_1" = "ホーム";
+"menu_drawer_item_1" = "接続する";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "ヘルプ";
@@ -83,5 +83,26 @@
 "privacyPolicyAgreeButton" = "同意して続行する";
 "privacyPolicyLearnMoreButton" = "nthLinkについて詳しく";
 "homeReadLatestNews" = "最新ニュースを読む";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "コピーしました";
+"telegramIdCopiedAlert" = "TelegramにIDを貼り付けてください。";
+"followUsText" = "フォローする";
+"visitButtonText" = "訪問";
+"diagnosticPageTitle" = "診断";
+"diagnosticsStartButton" = "診断を開始";
+"diagnosticsDescription" = "nthLinkでは、サービス向上のために診断データの提供をお願いすることがあります。
+
+ボタンをクリックすると、診断プロセスが開始され、情報が収集されてサーバーに送信されます。収集された情報はすべて完全に匿名であることをご安心ください。";
+"diagnosticsSuceessMessage" = "改善にご協力いただきありがとうございます！皆様の声をお聞かせください。";
+"diagnosticsInternetError" = "ネットワークが不安定です。インターネット接続を確認してください。";
+"diagnosticsStartDisconnectWarning" = "診断を開始すると現在の接続が切断されます。本当に続行しますか？";
+"Cancel" = "キャンセル";
+"loading" = "読み込み中...";
+"UpdateAppMenu" = "アプリを更新";
+"updateScreenLabel" = "アプリを最新バージョンに更新してください";
+"updateScreenSubtext" = "nthLinkアプリの新しいバージョンがApp Storeで利用可能です。すべての素晴らしい機能を使用するためにアプリを更新してください。";
+"updateScreenUpdateNowButtonText" = "今すぐ更新";
 
 
+
+"connectionQualityLabel" = "接続品質";

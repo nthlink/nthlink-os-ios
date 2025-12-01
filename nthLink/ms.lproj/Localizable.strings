@@ -51,7 +51,7 @@
 "about_page_title" = "Tentang";
 "about_version" = "Versi";
 "about_text" = "<p>Kami adalah sekumpulan jurutera perisian dan keselamatan maklumat berpengalaman yang memulakan nthLink pada 2016 untuk menyokong peguam hak asasi manusia yang perlu mendapatkan maklumat terhad dan menyatakan perspektif mereka. Sejak itu kami telah menyediakan perkhidmatan ini kepada orang ramai. Pasukan pembangunan kami adalah pakar dalam kedua-dua teknologi keselamatan rangkaian dan kebolehpercayaan perkhidmatan.<br>Perkhidmatan kami adalah percuma dan akan kekal percuma terima kasih kepada penaja dan rakan kongsi kami. Mereka ialah:<br><br>&bull; Open Technology Fund  <br>&bull; Google Jigsaw  <br>&bull; Cure53  <br>&bull; Include Security  <br>&bull; Plaintext Design</p><p>Pasukan pembangunan kami cemerlang dalam kecanggihan teknologi pemintasan penapisan dan kebolehpercayaan perkhidmatan. Dengan pengalaman bertahun-tahun dalam bidang khusus ini, kami menyediakan pengguna dalam kawasan sasaran akses mudah, selamat dan boleh dipercayai kepada maklumat yang ditapis sebaliknya.</p>";
-"menu_drawer_item_1" = "Laman Utama";
+"menu_drawer_item_1" = "Sambung";
 "menu_drawer_item_2" = "@string/feedback_page_title";
 "menu_drawer_item_3" = "@string/about_page_title";
 "menu_drawer_item_4" = "Bantuan";
@@ -83,3 +83,24 @@
 "privacyPolicyAgreeButton" = "Setuju dan teruskan";
 "privacyPolicyLearnMoreButton" = "Ketahui lebih lanjut mengenai nthLink";
 "homeReadLatestNews" = "Baca Berita Terkini";
+"telegramIDText" = "Telegram: @nthLinkVPN";
+"copiedText" = "Disalin";
+"telegramIdCopiedAlert" = "Sila tampal ID pada Telegram.";
+"followUsText" = "Ikuti kami";
+"visitButtonText" = "Lawati";
+"diagnosticPageTitle" = "Diagnostik";
+"diagnosticsStartButton" = "Mulakan Diagnostik";
+"diagnosticsDescription" = "Di nthLink, kami kadangkala memerlukan bantuan anda untuk meningkatkan perkhidmatan kami dengan memberikan data diagnostik.
+
+Dengan menekan butang, proses diagnostik akan bermula, mengumpulkan maklumat dan menghantarnya ke pelayan kami. Yakinlah, semua maklumat yang dikumpulkan adalah sepenuhnya tanpa nama.";
+"diagnosticsSuceessMessage" = "Terima kasih kerana membantu kami menjadi lebih baik! Kami gembira mendengar pendapat anda.";
+"diagnosticsInternetError" = "Rangkaian tidak stabil. Sila periksa sambungan internet anda.";
+"diagnosticsStartDisconnectWarning" = "Memulakan diagnostik akan memutuskan sambungan semasa. Adakah anda pasti mahu meneruskan?";
+"Cancel" = "Batal";
+"loading" = "Memuatkan...";
+"UpdateAppMenu" = "Kemas Kini Aplikasi";
+"updateScreenLabel" = "Kemas kini aplikasi anda ke versi terkini";
+"updateScreenSubtext" = "Versi baharu aplikasi nthLink kini tersedia di App Store. Sila kemas kini aplikasi anda untuk menggunakan semua ciri hebat kami.";
+"updateScreenUpdateNowButtonText" = "Kemas Kini Sekarang";
+
+"connectionQualityLabel" = "Kualiti Sambungan";

@@ -16,6 +16,13 @@ enum LocalizedStringEnum:String {
     case menu_drawer_item_4
     case feedback_page_title
     case menu_drawer_item_5
+    case about_version
+    case telegramIDText
+    case copiedText
+    case telegramIdCopiedAlert
+    case followUsText
+    case diagnosticPageTitle
+    case UpdateAppMenu
     
     //Help View Controller
     case about_text
@@ -45,6 +52,8 @@ enum LocalizedStringEnum:String {
     case somethingWentWrong
     case Notice
     case OK
+    case Cancel
+    case loading
     
     //HomeViewController
     case Disconnect
@@ -52,16 +61,41 @@ enum LocalizedStringEnum:String {
     case Connecting
     case Disconnecting
     case homeReadLatestNews
+    case connectionQualityLabel
     
     //News View Controller
     case word_loading
-
 
     //privacy policy
     case privacyPolicyAgreeButton
     case privacyPolicyLearnMoreButton
     
+    //FollowUs Page
+    case visitButtonText
     
+    //Diagnostics
+    case diagnosticsStartButton
+    case diagnosticsDescription
+    case diagnosticsSuceessMessage
+    case diagnosticsInternetError
+    case diagnosticsStartDisconnectWarning
+    
+    case updateScreenLabel
+    case updateScreenSubtext
+    case updateScreenUpdateNowButtonText
+
+    //Connectivity Health Check
+    case connectivityWarning
+    case connectivityError
+
+    //VPN Permission
+    case vpnPermissionDeniedTitle
+    case vpnPermissionDeniedMessage
+    case vpnConfigurationErrorTitle
+    case vpnConfigurationErrorMessage
+    case tryAgain
+
+
     var localized:String{
         return self.rawValue.localized
     }
